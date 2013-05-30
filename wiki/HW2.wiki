@@ -3,3 +3,13 @@
 Implement the logic for your game.
 For example, [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw2/StateChangerImpl.java state changer for chess].
 
+= Group HW2 =
+Plan your game and build a roadmap.
+Plan to have a prototype running in 6 lessons, 
+then improve with iteration (have a new feature to show for us every lesson and get feedback from us),
+and finally leave the last 2 lessons for bug fixing and load testing.
+
+Add two slides to [https://docs.google.com/presentation/d/1YyhLG0aKsBZe18udbKUo8d79bKqWMXkW-eZVh6SJOXI/edit#slide=id.p our slides]:
+  # Describe your game with "printscreens" (draw some screens from your game).
+  # Your roadmap: it should have 12 steps (each lesson you should complete one step).
+  

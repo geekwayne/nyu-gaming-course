@@ -26,7 +26,7 @@
   * [Lesson11]: PhoneGap
   * [HW11]: Invite your contacts
   * [Lesson12]: Canvas, GWTBox2D, JSNI, OAuth2, FB login
-  * [HW12]: FB integration
-  * [Lesson13]: Google Hangout
-  * [HW13]: Google Hangout integration
+  * [HW12]: FB login and load testing
+  * [Lesson13]: Advanced FB
+  * [HW13]: Advanced FB
   * Lesson 14: Group presentations
