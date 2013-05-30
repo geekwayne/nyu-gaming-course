@@ -1,0 +1,5 @@
+#summary AppEngine datastore, objectify
+
+= Lesson plan =
+  * 50 min: AppEngine datastore: [http://www.google.com/events/io/2009/sessions/SofterSideofSchemas.html AppEngine persistence], [https://code.google.com/p/objectify-appengine/wiki/Entities#Serializing objectify code examples].
+  * [https://developers.google.com/events/io/2012/sessions/gooio2012/306/ SQL vs NoSQL]

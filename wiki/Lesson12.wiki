@@ -1,0 +1,12 @@
+#summary Box2D and PlayN
+
+  * [http://gwtbox2d.appspot.com/ GWT-Box2D showcase] and [https://code.google.com/p/gwtbox2d/ its code].
+  * 40 min: PlayN: [http://www.google.com/events/io/2011/sessions/kick-ass-game-programming-with-google-web-toolkit.html PlayN in GoogleIO-2011] and [http://youtu.be/6ZiK8FJWVKY video] ([http://proppy-playn101.appspot.com/#1 playn101] and [http://playn-2011.appspot.com/slides/index.html playn201])
+  * JSNI, OAuth2, FB login, Apache Jmeter for load testing
+  
+PlayN sources:
+[http://code.google.com/p/playn/ PlayN], also [https://developers.google.com/playn/overview here]: physics engines. 
+
+Other multi-platform physics engine:
+  * [http://haxe.org/com/libs/physaxe HaXe]
+  * [http://www.learn-cocos2d.com/tag/physics-engine/ Cocos2D]

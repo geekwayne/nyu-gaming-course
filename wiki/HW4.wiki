@@ -1,0 +1,7 @@
+#summary HW4
+
+GWTTestCase, selenium test, use dependency injection.
+
+Adding [https://code.google.com/p/gwt-log/wiki/GettingStarted gwt-log].
+
+Dependency injection (dagger or guice).

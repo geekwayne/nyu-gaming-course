@@ -1,0 +1,22 @@
+#summary Eclipse
+
+==Setup==
+  # Download and install [http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/junosr2 Eclipse for Java developers]
+  # Install the eclipse plugin for [http://code.google.com/appengine/docs/java/tools/eclipse.html gwt+appengine] 
+  # Install SVN eclipse plugin: [http://www.eclipse.org/subversive/documentation/gettingStarted.php subversive] with [http://svnkit.com/download.php SVNKit Connectors] (if that fails, you can try [http://www.ibm.com/developerworks/opensource/library/os-ecl-subversion/ subclipse])
+  # Learn <a href="http://www.ling.ohio-state.edu/~scott/talks/svntutorial/lcc_subversion_tutorial.pdf">what is SVN</a> and <a href="http://www.ibm.com/developerworks/java/library/j-subversion/index.html">how to use it</a>. I also recommend installing [http://tortoisesvn.net/ tortoise SVN] if you have windows.
+  # Get your [http://code.google.com/hosting/settings Google's SVN password]. You'll need it for the next stage to checkout the code.
+  # From eclipse, checkout your project, follow [http://www.ibm.com/developerworks/opensource/library/os-ecl-subversion/ these instructions]
+
+==Tips==
+  * `Ctrl+Shift+O` optimizes all your imports (removes unused imports).
+  * `Ctrl+Shift+F` formats your code nicely. 
+  * `Shift+Alt+UP` selects enclosing element.
+  * `Shift+Alt+L` extracts local.
+  * `Shift+Alt+Z` surround with XXX.
+  * `Ctrl+Space` is smart auto-complete.
+  * `Ctrl+F8` to switch perspectives
+  * `Ctrl+1, 2, 3`  quick fix, quick assist, quick access
+  * `Alt+Shift+R` rename
+  * `Ctrl+Shift+G` find usages
+  * `Ctrl+Shift+M` makes a static import for a static method call

@@ -1,0 +1,4 @@
+#summary HW9
+
+AI: add an option to play a single player game against the computer (you can simply add a button "Play against the computer"). You can copy the [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/shared/games/ai/AlphaBetaPruning.java alpha-beta search algorithm], and you need to use it with a heuristic for your game.
+

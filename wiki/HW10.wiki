@@ -1,0 +1,27 @@
+#summary Mobile version.
+
+Offline:
+  * Use HTML5 manifest and make sure your site works when you load it for the second time on mobile even in airplane mode (i.e., without internet connectivity). Either write your own manifest file (with all the GWT generated javascripts), *or* use [https://code.google.com/p/mgwt/wiki/HTML5Manifest mgwt HTML5 manifest] (if you use it, then *you should remove i18n from your gwt.xml because it causes a problem with mgwt HTML5 manifest*)
+  * Save in local-storage: (1) all the current matches, (2) all moves that haven't been done by the server (the RPC haven't returned yet or it failed). 
+  * When a user makes a move, do the following:
+    # Put the move in local storage
+    # Make the RPC call to the server
+    # If the RPC ended successfully, then delete the move from local storage.
+    # Have a timer that runs every 10 seconds, that will check if there are any moves in local storage. If so, it tries to send one of them, and if the RPC ended successfully, then delete the move from local storage.
+
+Make sure your manifest file has the mime-type `text/cache-manifest`. You can achieve that by adding to your `web.xml`
+{{{
+  <mime-mapping>
+    <extension>manifest</extension>
+    <mime-type>text/cache-manifest</mime-type>
+  </mime-mapping>
+}}}
+See [http://www.html5rocks.com/en/tutorials/appcache/beginner/ HTML5 Manifest tutorial]. 
+
+Example scenario:
+I have two ongoing matches, and it my turn in both matches (and they are saved in local storage from the last time I connected to the app). I'm in the subway (or on airplane mode) and I surf to your app. The app loads and shows me the two matches in the drop down. I select the first, and make a move. The RPC will fail (because the internet is off), and I'll see an error message saying the move will be sent after you get connected to the internet. Then I switch to other match and make a move there, and see the same error message. Then I get out of the subway (turn off airplane mode), and after at most 10 seconds it will start re-send one move, and the RPC will succeed and that move will be deleted from local-storage. Then after 10 more seconds it will re-send the second move, and the RPC will succeed and that move will be deleted from local-storage. Now the local-storage will have an empty list of moves. 
+
+
+Mobile:
+  * Surf to your appspot website from a mobile device, and make sure everything works as expected.
+  * Make sure dragging on mobile works, and if it doesn't then fix it. See [https://code.google.com/p/gwt-dnd/ gwt-dnd]

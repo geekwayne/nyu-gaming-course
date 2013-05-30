@@ -1,0 +1,16 @@
+#summary HW3
+
+Graphics for your game (MVP + unit tests for Presenters).
+See the skeleton of Yoav Zibin's HW3 [https://code.google.com/p/nyu-gaming-course-2013/source/detail?r=468 here].
+
+You should be able to play your game in the browser with yourself, i.e., two human players playing in the same browser (there is no artificial intelligence or network communication in this homework).
+
+When the game ends, there should be a message that shows which color won (or if it is a draw). 
+You should have an option to start a new game.
+
+Add [https://developers.google.com/web-toolkit/doc/latest/DevGuideCodingBasicsHistory history support], i.e., you can use the back and forward buttons in the browser to move the game state back and forward.
+
+
+You may copy code from last year's course:
+  # Chinese chess: [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiGraphics.java View] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiGraphics.ui.xml UiBinder] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiPresenter.java Presenter]
+  # Checkers: [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Graphics.java View] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Graphics.ui.xml UiBinder] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Presenter.java Presenter]

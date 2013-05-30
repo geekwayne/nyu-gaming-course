@@ -1,0 +1,86 @@
+#summary Syllabus for NYU gaming course
+
+=Syllabus for NYU gaming course=
+
+==Short bio about the lecturer==
+[http://www.flashtogether.com/yoavzibin/CV.pdf Yoav Zibin] did his PhD in the Technion, a postdoc in MIT, worked in IBM research, and now in Google NYC.
+He co-founded and worked for 3 years in a multiplayer gaming startup called [http://www.come2play.com Come2Play] that serves casual games to more than 5 million monthly users ([https://www.facebook.com/PlayChess?fref=ts Chess page]).
+
+==Short course description==
+Previous courses (the course material will be more or less the same):
+  # [https://code.google.com/p/gaming-platform/ Spring 2012]
+  # [https://code.google.com/p/nyu-gaming-course-2013/ Spring 2013]
+  # [https://code.google.com/p/nyu-gaming-course/ Fall 2013]
+
+The course will teach how to develop online casual multiplayer games
+for web and mobile, using open technologies such as [http://code.google.com/webtoolkit/ GWT], [AppEngine], DHTML, JSON, AJAX, long-polling, HTML5, XMPP, PhoneGap, etc.
+
+The course has two big projects: 
+  * 70% of the grade for an individual project: A multiplayer game with graphics for the web and mobile, practice mode with artificial-intelligence, save and load, animations, sounds, FB integration, mobile site, ranking system, leaderboards, tournaments, etc. The individual project is broken down into 14 individual assigments (due every week).
+  * 30% of the grade for a group gaming project: whatever subject you choose. You should show progress during the course, and the project is due before the last lecture.
+
+The course will also teach about ranking systems, artificial intelligence for games, leaderboards, tournaments,
+realtime and turn-based games, and advanced graphics such as drag-n-drop, touch screen, sounds, animations, etc.
+
+Pre-requisite: `Java` 
+
+[Grading]
+
+===Work environment===
+Eclipse IDE for Java developers (GWT, AppEngine)
+
+
+===Technologies Learned===
+  * GWT
+  * App engine - use Channel API, Objectify, email
+  * XMPP (integrate with Google talk messenger)
+  * SVN
+  * HTML5 (Canvas, WebSockets)
+  * Ajax, long-polling, REST
+  * Abuse-report systems
+  * AI for games
+  * ranking systems
+  * FB apps (OAuth2, graph API)
+  * PhoneGap, MGWT
+
+===Recommended books===
+  * [http://www.amazon.com/Google-Engine-Java-Application-Development/dp/1849690448/ref=sr_1_7?s=books&ie=UTF8&qid=1325861681&sr=1-7 Google App Engine Java and GWT Application Development], you can download the book's code examples [http://www.packtpub.com/code_download/6295 here]
+  * [http://www.amazon.com/Essential-GWT-Building-Toolkit-Developers/dp/0321705149/ref=sr_1_1?ie=UTF8&qid=1325861553&sr=8-1 Essential GWT]
+  * [http://www.amazon.com/GWT-Action-Adam-Tacy/dp/1935182846/ref=sr_1_4?s=books&ie=UTF8&qid=1325861681&sr=1-4 GWT in Action second edition]
+
+==Lesson breakdown==
+  # Course overview, junit, and working with SVN and Google code 
+    * Unit tests for the game
+  # Internet 101 & GWT: browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON, GWT (intro)
+    * Implementation of game logic, bugs hunting using unit tests.
+  # GWT continued (UI, RPC, UiBinder, MVP)
+    * Graphics for your game (MVP + unit tests for Presenters)
+  # Advanced GWT and testing: Mockito, selenium, Guice, GIN, history API
+    * GWTTestCase, selenium test, use dependency injection, history
+  # HTML5: CSS animations, drag-n-drop, sounds, manifest for offline playing, flexible-box-model
+    * Advanced graphics
+  # AppEngine, Polling, long-polling, ajax, Channel API
+    * Multiplayer version using auto-match, and Google login.
+  # AppEngine datastore, objectify
+    * Add save & load
+  # Security: I18n, Accessibility, web security, safe HTML, XSRF. Ranking: ELO, TrueSkill, simulations, convergence, ranking levels.
+    * I18n the game, make the game secure (server-side validation), ranking
+  # Artificial Intelligence (AI) for games. Heuristics, `A*` search, alpha-beta pruning, etc. 
+    * AI for your game.
+  # Mobile site & mgwt
+    * mobile site
+  # phonegap & gwt-phonegap
+    * invite from contacts 
+  # Canvas and requestAnimationFrame, GWTBox2D, JSNI, OAuth2, FB login, Apache Jmeter for load testing.
+    * FB login, load test your app.
+  # FB, YouTube, G+ and Hangouts integration, e.g., FB login, graph API, game API, REST vs javascript, notifications, credits, messages.
+    * Advanced FB integration
+    
+Other possible topics:
+  # Leaderboard, achievments.
+  # Google analytics
+  # Ads, AdMob.
+  # 3D [https://github.com/mrdoob/three.js/]
+  # Tools: code coverage, code duplication [https://developers.google.com/java-dev-tools/codepro/doc/]
+  # Super dev mode in GWT: [https://developers.google.com/web-toolkit/articles/superdevmode]
+  # GWT Designer, Cell, GWT code-splitting (one site for all games)

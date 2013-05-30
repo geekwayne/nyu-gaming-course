@@ -1,0 +1,25 @@
+#summary Grading
+
+There will be 14 lessons, 14 individual home works (HWs) of equal weight (70% of the final grade), and one group assignment (30% of the final grade).
+
+Create your own individual project and your group project (on Google code) and add them to our [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=2 spreadsheet].
+
+=Individual HWs=
+Each individual assignment will be submitted into your individual project using a *single commit* any time before our lecture starts.
+The *deadline is strict* - any submission after the deadline will not be graded.
+
+The grader will go over your committed code, review it and give you feedback and your grade for that HW.
+You are encouraged to fix the problems pointed by the grader (and avoid making them in future HWs).
+
+*No copying!!!*
+All work is individual - no team work is allowed.
+Copying will be dealt with harshly (i.e., failing the course).
+
+ 
+=Group assignment=
+Divide into teams of 3-4 students, and work on whatever gaming project you want.
+The project is due before the last lecture.
+You will present your work several times during the course to show your progress and get feedback and direction.
+
+You may commit as often as you like into your group project, and team work is obviously encouraged (but don't copy code from other teams).
+

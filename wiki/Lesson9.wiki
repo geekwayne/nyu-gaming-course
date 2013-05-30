@@ -1,0 +1,27 @@
+#summary Artificial intelligence for games
+
+= Lesson plan =
+  * 30 min: [http://www2.kbs.uni-hannover.de/fileadmin/institut/pdf/ki1/lecture/chapter06.pdf Presentation]: Minmax search, alpha-beta pruning, heuristics (evaluation of states and ordering of moves)
+  * 5 min: [http://upload.wikimedia.org/wikipedia/commons/d/de/Tictactoe-X.svg Optimal decision tree for player X] or [http://xkcd.com/832/ XKCD version]
+  * 5 min: [http://www.xkcd.com/1002/ XKCD AI] and [http://en.wikipedia.org/wiki/Solved_game Solved games]
+  * 20 min: Explain [HW9], go over [http://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/shared/games/ai/AlphaBetaPruning.java AlphaBetaPruning.java]
+
+= Links =
+  * [http://en.wikipedia.org/wiki/Minimax Minimax search]
+  * [http://en.wikipedia.org/wiki/Alpha-beta_pruning Alpha beta pruning]
+  * Neural networks in [http://en.wikipedia.org/wiki/Backgammon#Software Backgammon] and in [http://en.wikipedia.org/wiki/Neural_network general]
+  * Other AI techniques: [http://en.wikipedia.org/wiki/Genetic_algorithm Genetic algorithms]
+  * [http://xfriis.dk/maxfriis/bg/double.html Doubline in backgammon]
+  * [http://kom.aau.dk/~zt/cources/Readings_in_Advanced_Intellimedia/ai_chess_alexandre_gimenez.pdf Chess] - openings and end-game positions.
+  * [http://dendiz.com/blog/wp-content/uploads/2010/06/swe555-dizman-research-report.pdf Monte Carlo methods for poker] and bridge, [http://www.ke.tu-darmstadt.de/resources/poker poker bots in Java]
+  
+
+== Connect 4 heuristic == 
+  # Odd square: is a square belonging to an odd row (1,3,5)
+  # Even square: is a square belonging to an even row (2,4,6)
+  # Threats: A threat is a group of three tokens of the same color which has the fourth square empty and also the square below the empty square is empty
+  # Odd threat: is a threat in which the empty square is odd
+  # Even threat: is a threat in which the empty square is even
+  # If red (moves first) has an odd threat and black cannot connect four tokens anywhere else red will win.
+  # If black (moves second) has an even threat and black cannot connect four tokens anywhere else black will win.
+  # At the beginning of the game it is advantageous to place tokens in the central columns.

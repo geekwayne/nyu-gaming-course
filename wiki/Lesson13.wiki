@@ -1,0 +1,9 @@
+#summary OAuth, XAuth, FB, Hangout
+
+  * Useful FB tools
+    # [https://developers.facebook.com/tools/console/ Test console]
+    # [https://developers.facebook.com/tools/explorer?method=GET&path=me Graph explorer]
+  * [https://github.com/olams/GwtFB/tree/master/src/com/gwtfb FB API GWT wrapper]
+  * [https://developers.google.com/+/hangouts/getting-started Hangout API], and [https://github.com/akjava/GWT-Hangouts its GWT wrapper]. [https://developers.google.com/+/hangouts/api/gapi.hangout.data#gapi.hangout.data.setValue Hangout Data API].
+  * [https://github.com/xauth/xauth XAuth]
+  * [http://www.mobiledevelopersolutions.com/home/start/twominutetutorials/tmt5p1 PhoneGap, ChildBrowser and OAuth]

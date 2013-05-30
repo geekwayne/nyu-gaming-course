@@ -1,0 +1,18 @@
+#summary HW6
+
+Create a multiplayer version of your game on AppEngine!
+You should auto-match the players, i.e., simply match any two waiting players. 
+The players should pass their moves using [https://developers.google.com/web-toolkit/doc/latest/tutorial/RPC GWT-RPC] (to AppEngine) and [https://developers.google.com/appengine/docs/java/channel/overview Channel API] (from AppEngine).
+
+You should use this GWT plugin for Channel API: [https://code.google.com/p/gwt-gae-channel/ gwt-gae-channel]
+Don't forget to add to your .gwt.xml:
+{{{
+<inherits name='com.google.gwt.appengine.channel.Channel'/>
+<inherits name='com.google.gwt.inject.Inject'/>
+}}}
+
+The player should be able to [https://developers.google.com/appengine/docs/java/users/overview login using his Google account], and then the game will display the user name.
+
+Upload your game to AppEngine, test it live in at least two browsers (chrome / firefox / safari / IE).
+Add the URL of your game to your commit message (when committing HW6).
+

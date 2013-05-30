@@ -1,0 +1,10 @@
+#summary HW5
+
+Advanced graphics: animations for the moves, drag-n-drop the pieces, sounds (for the moves and for ending the game), save&load (using local storage).
+
+Make sure that your game will still work even in old browsers that do not support these features.
+
+You should be able to move the pieces using two ways:
+  # Just by clicking - then you should see an animation of the piece moving.
+  # drag-n-drop - then there shouldn't be any animation (the piece should just appear in the destination).
+

@@ -1,0 +1,8 @@
+#summary Security and I18n
+
+  * [http://code.google.com/p/multiplayer-api/ Client-side API] vs.  [http://nonoba.com/developers/multiplayerapi/faq#whatdoineedtostartdevelopingamultiplayergame Client-server API]
+  * 30 min: [https://developers.google.com/web-toolkit/doc/latest/DevGuideI18n I18n] and Accessibility
+  * Ranking: [http://en.wikipedia.org/wiki/Elo_rating_system#Mathematical_details ELO], [http://en.wikipedia.org/wiki/Glicko_rating_system Glicko] ([http://en.wikipedia.org/wiki/TrueSkill TrueSkill], simulations, convergence).
+  * 20 min: [http://code.google.com/webtoolkit/articles/security_for_gwt_applications.html Secure GWT]
+  * 20 min: [http://code.google.com/webtoolkit/doc/latest/DevGuideSecuritySafeHtml.html SafeHtml]
+  * 30 min: [http://code.google.com/webtoolkit/doc/latest/DevGuideSecurityRpcXsrf.html RPC XSRF]
