@@ -71,6 +71,7 @@ After HW2, all the tests should pass (unless you have bugs in your tests or impl
 ==Group HW1==
 Choose your group gaming project - this project is completely open ended and up to you.
 Here are some ideas you could choose:
+  # Treasure hunt using NFC chips, QR-codes, and GEO fencing. Check-in games ("king of XXX" as in FourSquare).
   # [https://developers.google.com/glass/ Google Glass API]
   # [https://developers.google.com/games/services/ Google Game Service]: you can do real-time multiplayer games for Android.
   # Khan Academy: Look at their [https://github.com/Khan/khan-exercises exercises framework] and at their [https://github.com/Khan/khan-api/wiki/Khan-Academy-API Khan Academy API]
@@ -78,5 +79,3 @@ Here are some ideas you could choose:
   # Google Play For Education
   # Video & audio chat
   # Physics based game, style angry birds
-
-
