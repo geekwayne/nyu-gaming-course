@@ -8,3 +8,8 @@
   * sounds, 
   * Manifest for offline playing,
   * flexible-box-model.
+
+Talk from Google web designer (previously known as Ninja).
+<wiki:comment>
+(skranzberg@).
+</wiki:comment>
