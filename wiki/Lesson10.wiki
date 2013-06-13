@@ -5,3 +5,7 @@
   * 30 mon: [http://www.google.com/events/io/2011/sessions/html5-versus-android-apps-or-web-for-mobile-development.html HTML5 versus Android: Apps or Web for Mobile Development?]
   * [https://code.google.com/p/mgwt/wiki/HTML5Manifest HTML5 manifest]
   * MGWT (Mobile GWT): [https://code.google.com/p/mgwt/wiki/UiBinder UiBinder in MGWT]
+
+Other framework:
+  * [http://documentcloud.github.io/backbone/ backbone.js]
+  * [https://parse.com/docs/js_guide Parse]
