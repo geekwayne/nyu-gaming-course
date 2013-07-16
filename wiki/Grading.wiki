@@ -1,6 +1,6 @@
 #summary Grading
 
-There will be 14 lessons, 14 individual home works (HWs) of equal weight (70% of the final grade), and one group assignment (30% of the final grade).
+There will be 14 lessons, 14 individual home works (HWs) of equal weight (50% of the final grade), and one group assignment (50% of the final grade).
 
 Create your own individual project and your group project (on Google code) and add them to our [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=2 spreadsheet].
 
@@ -9,7 +9,6 @@ Each individual assignment will be submitted into your individual project using 
 The *deadline is strict* - any submission after the deadline will not be graded.
 
 The grader will go over your committed code, review it and give you feedback and your grade for that HW.
-You are encouraged to fix the problems pointed by the grader (and avoid making them in future HWs).
 
 *No copying!!!*
 All work is individual - no team work is allowed.
@@ -17,9 +16,20 @@ Copying will be dealt with harshly (i.e., failing the course).
 
  
 =Group assignment=
-Divide into teams of 3-4 students, and work on whatever gaming project you want.
-The project is due before the last lecture.
-You will present your work several times during the course to show your progress and get feedback and direction.
+Divide into teams of 3-4 students, and work on creating a [https://docs.google.com/document/d/1jxr0BxY34GfbG-XidPXygrxBPIhzdjZ4RE5jczC0Ztw/edit#heading=h.e3l14r28jtvs knowledge game].
+The stages of project is as follows:
+  # HW 1: Form groups and decide on a game (describe it using 2-5 sentences).
+  # HW 2: UI design: submit diagrams/printscreens of all screens in your game (5-10 screens). Design for mobile usage.
+  # HW 3: Deploy to AppEngine relevant tutorials, e.g., mashup of google maps and freebase API.
+  # HW 4: Desktop prototype.
+  # HW 5: Mobile prototype.
+  # HW 6: First round of student feedback: each student will record a 3-5 minute movie of using each game, and report on bugs, surprising behaviours and feature ideas. You can use either your desktop or mobile, and you can record the movie either by using a real video recorder pointed at the screen (e.g., use the camera on your phone to video the screen of your laptop), or some application (e.g., [http://www.mightypocket.com/2010/08/android-screenshots-screen-capture-screen-cast/ recorder for android]).
+  # HW 7: Second iteration of the game
+  # HW 8: Second round of feedback
+  # HW 9: Third iteration of the game (add animations and sounds)
+  # HW 10: Third round of feedback
+  # HW 11: Documentation (both written documentation, printscreens, and a 5 minute video showing how to use the game)
+  # HW 12: I18n to 1-2 other languages.
+  # HW 13: Last round of feedback.
 
 You may commit as often as you like into your group project, and team work is obviously encouraged (but don't copy code from other teams).
-
