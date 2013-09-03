@@ -83,6 +83,6 @@ After HW2, all the tests should pass (unless you have bugs in your tests or impl
 ==Group HW1==
 Divide into groups of 2-3 students, and invent a game for *learning a new language*. We will focus just on learning new words (increasing the *vocabulary*), and not on grammar (because grammar rules are very different between languages). Focus on a single-player game (if time permits, we could add a multiplayer variant later).
 
-For next week, just find your partners, and decide on the game play. No need to write any code.
+For next week, find your partners, and decide on the game play (add a slide [https://docs.google.com/presentation/d/1YyhLG0aKsBZe18udbKUo8d79bKqWMXkW-eZVh6SJOXI/edit#slide=id.p here] which will have a printscreen of your game). No need to write any code.
 
 All the games will use a common database of modules of words. E.g., there will be a color module which will teach you about colors, a house objects for objects you can find in a house, etc. We will build this database together in following assignments (each student will add a small part). The database will also contain images and even audio recordings of the words.
