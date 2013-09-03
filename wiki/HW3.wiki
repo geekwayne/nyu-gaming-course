@@ -1,5 +1,6 @@
 #summary HW3
 
+==Individual HW3==
 Graphics for your game (MVP + unit tests for Presenters).
 See the skeleton of Yoav Zibin's HW3 [https://code.google.com/p/nyu-gaming-course-2013/source/detail?r=468 here].
 
@@ -15,7 +16,7 @@ You may copy code from last year's course:
   # Chinese chess: [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiGraphics.java View] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiGraphics.ui.xml UiBinder] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiPresenter.java Presenter]
   # Checkers: [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Graphics.java View] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Graphics.ui.xml UiBinder] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Presenter.java Presenter]
   
-=Group HW3=
+==Group HW3==
 Start implementing your roadmap.
 Every week you should add a slide to [https://docs.google.com/presentation/d/1YyhLG0aKsBZe18udbKUo8d79bKqWMXkW-eZVh6SJOXI/edit#slide=id.p our slides] that describes your progress: you should always first mention what you promised to do last week (or in your roadmap), what you accomplished doing, and what you're planning to do next week (so the pattern is: past, present, future).
 
