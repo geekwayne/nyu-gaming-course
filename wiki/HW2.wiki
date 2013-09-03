@@ -9,4 +9,20 @@ For example, [https://code.google.com/p/nyu-gaming-course-2013/source/browse/tru
 Build a roadmap, and add it to [https://docs.google.com/presentation/d/1YyhLG0aKsBZe18udbKUo8d79bKqWMXkW-eZVh6SJOXI/edit#slide=id.p our slides].
 Plan to have a basic version working on FB in 6 lessons and a mobile app in 8 lessons. Afterward improve with iteration based on user feedback.
 
-  
+Add two modules (each module should contain 10-20 words) to our common database, each module should have the words in at least 2 languages.
+Each modules is a directory with a certain structure, e.g., for the colors module we will have:
+{{{
+/colors/
+/colors/words.js
+/colors/yellow.jpg
+/colors/red.jpg
+...
+}}}
+The file `words.js` should be in JSON and have the following format:
+{{{
+{
+  'yellow': {'en': 'yellow', 'es': 'amarillo'},
+  'red': {'en': 'red', 'es': 'rojo'},
+   ...
+}
+}}}
