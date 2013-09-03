@@ -50,7 +50,7 @@ Eclipse IDE for Java developers (GWT, AppEngine)
   * [http://www.amazon.com/GWT-Action-Adam-Tacy/dp/1935182846/ref=sr_1_4?s=books&ie=UTF8&qid=1325861681&sr=1-4 GWT in Action second edition]
 
 ==Lesson breakdown==
-  # Course overview, junit, and working with SVN and Google code 
+  # Course overview, junit, and working with SVN and Google code. GWT vs Closure.
     * Unit tests for the game
   # Internet 101 & GWT: browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON, GWT (intro)
     * Implementation of game logic, bugs hunting using unit tests.
