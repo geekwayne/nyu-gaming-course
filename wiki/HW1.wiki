@@ -81,13 +81,8 @@ All your tests should fail now, because your implementation is just a stub.
 After HW2, all the tests should pass (unless you have bugs in your tests or implementation).
 
 ==Group HW1==
-Choose your group gaming project - this project is completely open ended and up to you.
-Here are some ideas you could choose:
-  # Treasure hunt using NFC chips, QR-codes, and GEO fencing. Check-in games ("king of XXX" as in FourSquare).
-  # [https://developers.google.com/glass/ Google Glass API]
-  # [https://developers.google.com/games/services/ Google Game Service]: you can do real-time multiplayer games for Android.
-  # Khan Academy: Look at their [https://github.com/Khan/khan-exercises exercises framework] and at their [https://github.com/Khan/khan-api/wiki/Khan-Academy-API Khan Academy API]
-  # A mobile game that uses some novel feature, such as GPS, Google maps, Camera, Accelerometer, Compass, Microphone.
-  # Google Play For Education
-  # Video & audio chat
-  # Physics based game, style angry birds
+Divide into groups of 2-3 students, and invent a game for *learning a new language*. We will focus just on learning new words (increasing the *vocabulary*), and not on grammar (because grammar rules are very different between languages). Focus on a single-player game (if time permits, we could add a multiplayer variant later).
+
+For next week, just find your partners, and decide on the game play. No need to write any code.
+
+All the games will use a common database of modules of words. E.g., there will be a color module which will teach you about colors, a house objects for objects you can find in a house, etc. We will build this database together in following assignments (each student will add a small part). The database will also contain images and even audio recordings of the words.
