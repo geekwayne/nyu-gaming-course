@@ -16,8 +16,9 @@ The course will teach how to develop online casual multiplayer games
 for web and mobile, using open technologies such as [http://code.google.com/webtoolkit/ GWT], [AppEngine], DHTML, JSON, AJAX, long-polling, HTML5, XMPP, PhoneGap, etc.
 
 The course has two big projects: 
-  * 70% of the grade for an individual project: A multiplayer game with graphics for the web and mobile, practice mode with artificial-intelligence, save and load, animations, sounds, FB integration, mobile site, ranking system, leaderboards, tournaments, etc. The individual project is broken down into 14 individual assigments (due every week).
-  * 30% of the grade for a group gaming project: whatever subject you choose. You should show progress during the course, and the project is due before the last lecture.
+  * 30-70% of the grade for an individual project: A multiplayer game with graphics for the web and mobile, practice mode with artificial-intelligence, save and load, animations, sounds, FB integration, mobile app, ranking system, leaderboards, tournaments, etc. The individual project is broken down into 14 individual assignments (due every week).
+  * 30-70% of the grade for a group gaming project (groups of 2-3 students).
+The exact percentage is flexible (somewhere in the range between 30% and 70%) - a student can invest more time and effort in the individual project (then the individual project will determine 70% of the grade), or the student can invest more time and effort in the group project (then the group project will determine 70% of the grade).
 
 The course will also teach about ranking systems, artificial intelligence for games, leaderboards, tournaments,
 realtime and turn-based games, and advanced graphics such as drag-n-drop, touch screen, sounds, animations, etc.
