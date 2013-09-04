@@ -2,7 +2,7 @@
 
 = Plan = 
   # 5 min intro: me, the course, the outcome.
-  # 10 min: [Syllabus]
+  # 10 min: [Syllabus], talk about GWT vs. Closure.
   # 10 min: [Grading]. No final exam :)
   # 10 min: Work flow: Wiki, and [https://groups.google.com/forum/?fromgroups#!forum/nyu-gaming-course-fall-2013 google groups].
   # 10 min: [HW1]
