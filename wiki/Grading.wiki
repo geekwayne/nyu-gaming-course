@@ -21,7 +21,7 @@ I will give you feedback throughout the course, but the final grade will be deci
 
 The stages of project is as follows:
   # Part 1: Form groups and decide on a game (describe it in a slide using 2-5 sentences and a printscreen).
-  # Part 2: UI design: submit diagrams/printscreens of all screens in your game (5-10 screens). Design for mobile usage. Plan your roadmap.
+  # Part 2: UI design: submit diagrams/printscreens of all screens in your game. Design for mobile usage. Plan your roadmap.
   # Part 3: Desktop and mobile prototype, launch a working version on FB and android after 7 lessons.
   # Iterate and add features and fix bugs according to user feedback.
   # Add documentation (both written documentation, printscreens, and a 5 minute video showing how to use the game) and I18n.
