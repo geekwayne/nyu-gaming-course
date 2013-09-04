@@ -5,6 +5,7 @@ For deadline and submission instructions see [https://code.google.com/p/nyu-gami
 
 Administration stuff to do:
   * Choose your group.
+  * Create two Google code projects: one for your individual game and another for your group game.
   * Add your name & NYU & Google id with links to your individual and group projects to our  [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=2 spreadsheet]
   * Mailing list: I'll try to use csci_ga_3033_017_fa13@cs.nyu.edu but in it gives us problems, I would prefer that students would also register to [https://groups.google.com/forum/?fromgroups#!forum/nyu-gaming-course-fall-2013 our Google group]. If you have any problems or questions, send an email to our group: nyu-gaming-course-fall-2013@googlegroups.com
   * Go over all the wiki pages.
