@@ -1,6 +1,6 @@
 #summary Grading
 
-There will be 14 lessons, 14 individual home works (HWs) of equal weight (50% of the final grade), and one group assignment (50% of the final grade).
+There will be 14 lessons, 14 individual home works (HWs) of equal weight (30%-70% of the final grade), and one group assignment (30%-70% of the final grade).
 
 Create your own individual project and your group project (on Google code) and add them to our [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=2 spreadsheet].
 
