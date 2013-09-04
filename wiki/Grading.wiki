@@ -16,20 +16,14 @@ Copying will be dealt with harshly (i.e., failing the course).
 
  
 =Group assignment=
-Divide into teams of 3-4 students, and work on creating a [https://docs.google.com/document/d/1jxr0BxY34GfbG-XidPXygrxBPIhzdjZ4RE5jczC0Ztw/edit#heading=h.e3l14r28jtvs knowledge game].
-The stages of project is as follows:
-  # HW 1: Form groups and decide on a game (describe it using 2-5 sentences).
-  # HW 2: UI design: submit diagrams/printscreens of all screens in your game (5-10 screens). Design for mobile usage.
-  # HW 3: Deploy to AppEngine relevant tutorials, e.g., mashup of google maps and freebase API.
-  # HW 4: Desktop prototype.
-  # HW 5: Mobile prototype.
-  # HW 6: First round of student feedback: each student will record a 3-5 minute movie of using each game, and report on bugs, surprising behaviours and feature ideas. You can use either your desktop or mobile, and you can record the movie either by using a real video recorder pointed at the screen (e.g., use the camera on your phone to video the screen of your laptop), or some application (e.g., [http://www.mightypocket.com/2010/08/android-screenshots-screen-capture-screen-cast/ recorder for android]).
-  # HW 7: Second iteration of the game
-  # HW 8: Second round of feedback
-  # HW 9: Third iteration of the game (add animations and sounds)
-  # HW 10: Third round of feedback
-  # HW 11: Documentation (both written documentation, printscreens, and a 5 minute video showing how to use the game)
-  # HW 12: I18n to 1-2 other languages.
-  # HW 13: Last round of feedback.
+Divide into teams of 2-3 students, and work on creating a game for learning a new language (improving your vocabulary) and launch it on FB and as an android mobile app.
+I will give you feedback throughout the course, but the final grade will be decided at the end of the course based on various criteria (game novelty, game play, code quality, popularity of the game, user feedback, etc).
 
-You may commit as often as you like into your group project, and team work is obviously encouraged (but don't copy code from other teams).
+The stages of project is as follows:
+  # Part 1: Form groups and decide on a game (describe it in a slide using 2-5 sentences and a printscreen).
+  # Part 2: UI design: submit diagrams/printscreens of all screens in your game (5-10 screens). Design for mobile usage. Plan your roadmap.
+  # Part 3: Desktop and mobile prototype, launch a working version on FB and android after 7 lessons.
+  # Iterate and add features and fix bugs according to user feedback.
+  # Add documentation (both written documentation, printscreens, and a 5 minute video showing how to use the game) and I18n.
+
+You may commit as often as you like into your group project, and you may copy code from anywhere on the internet, but don't copy code from other teams.
