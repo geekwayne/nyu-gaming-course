@@ -86,4 +86,11 @@ Divide into groups of 2-3 students, and invent a game for *learning a new langua
 
 For next week, find your partners, and decide on the game play (add a slide to [https://docs.google.com/presentation/d/1YyhLG0aKsBZe18udbKUo8d79bKqWMXkW-eZVh6SJOXI/edit#slide=id.p our slides] which will have a printscreen of your game). No need to write any code.
 
-All the games will use a common database of modules of words. E.g., there will be a color module which will teach you about colors, a house objects for objects you can find in a house, etc. We will build this database together in following assignments (each student will add a small part). The database will also contain images and translation of the words into multiple languages.
+All the games will use a common database of modules of words. E.g., there will be a color module which will teach you about colors, a house objects module for objects you can find in a house, etc. We will build this database together in following assignments (each student will add a small part). The database will also contain images and translation of the words into multiple languages.
+
+Example ideas for games:
+  * Simple flash cards, or multiple choice questions, with timers, etc.
+  * Shooting game where you see an image and you need to shoot the correct word.
+  * [http://en.wikipedia.org/wiki/Concentration_(game) Memory game] where one card has the image and another has the word and you need to match them.
+  * Letter based games, e.g., [http://en.wikipedia.org/wiki/Wheel_of_Fortune_(U.S._game_show) Wheel of furtune] where you show an image and then slowly reveal one random letter at a time.
+  * Fruit ninja where you see several images and you need to slice the correct words (the images change after every level).
