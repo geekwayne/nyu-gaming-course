@@ -3,6 +3,9 @@
 = HW1 =
 For deadline and submission instructions see [https://code.google.com/p/nyu-gaming-course-2013/wiki/Grading Grading].
 
+*Important: you have two weeks to do HW1 (you can submit HW1 and HW2 together).*
+
+
 Administration stuff to do:
   * Choose your group.
   * Create two Google code projects: one for your individual game and another for your group game.
