@@ -21,3 +21,24 @@ Start implementing your roadmap.
 Every week you should add a slide to [https://docs.google.com/presentation/d/1YyhLG0aKsBZe18udbKUo8d79bKqWMXkW-eZVh6SJOXI/edit#slide=id.p our slides] that describes your progress: you should always first mention what you promised to do last week (or in your roadmap), what you accomplished doing, and what you're planning to do next week (so the pattern is: past, present, future).
 
 Also add additional slides with interesting code snippets, printscreens, links, video demos, or anything else you wish to share.
+
+
+Create two modules (each module should contain 10-20 words) to our common database.
+Each modules is a JSON file with the following format:
+{{{
+{
+  'yellow': '088fh',
+  'black': '019sc',
+   ...
+}
+}}}
+The codes are the ID in free base, e.g., for [http://www.freebase.com/visual_art/color?instances= colors], we have
+[http://www.freebase.com/m/088fh yellow]
+[http://www.freebase.com/m/019sc black].
+For 
+[http://www.freebase.com/medicine/anatomical_structure?instances= body parts], we have
+[http://www.freebase.com/m/0k0pj nose]
+[http://www.freebase.com/m/039xj_ ear].
+Note that freebase contains pictures and translation to other languages.
+
+In a later assignment we will use freebase API to extract the photos and translations.
