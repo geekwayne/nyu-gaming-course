@@ -7,7 +7,7 @@ Browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&P
   * 5 min: [https://docs.google.com/present/edit?id=0AfLEQb_5Yz6RZGdwYzM0aDZfOWcyN3R6a2N4 HTTP]
   * 20 min: Demo: [http://upload.wikimedia.org/wikipedia/commons/c/c6/Http_request_telnet_ubuntu.png telnet], Network panel (chrome's console or Firebug), javascript panel.
   * 15 min: [https://docs.google.com/presentation/d/1IWkWScq7YSnupzUDN0N_2leTGlr34Q5xH_7kfHQw93A/edit REST]
-  * 30 min: [https://docs.google.com/open?id=0B_LEQb_5Yz6RMDc2MTBmZTMtMDFjOS00MmE3LWFiN2EtYmVhZTRhZDI1MmFm GWT intro], see also these videos: [https://developers.google.com/events/io/sessions/gooio2012/218/ The History and Future of GWT (the first 30 minutes)] and [http://www.youtube.com/watch?v=T0X9BcBd-I0 Overview of GWT].
+  * 30 min: GWT intro, see these videos: [https://developers.google.com/events/io/sessions/gooio2012/218/ The History and Future of GWT (the first 30 minutes)] and [http://www.youtube.com/watch?v=T0X9BcBd-I0 Overview of GWT].
 
 
 {{{
