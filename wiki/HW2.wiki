@@ -23,21 +23,9 @@ Here are some ideas:
 [http://www.manythings.org/vocabulary/lists/2/ word pairs],
 [http://www.manythings.org/vocabulary/lists/l/words.php?f=ogden-picturable these nouns]
 
-Each modules is a JSON file with the following format:
-{{{
-{
-  'yellow': '088fh',
-  'black': '019sc',
-   ...
-}
-}}}
-The codes are the ID in free base, e.g., for [http://www.freebase.com/visual_art/color?instances= colors], we have
-[http://www.freebase.com/m/088fh yellow]
+The IDs are entities in [http://www.freebase.com/ freebase], e.g., 
+[http://www.freebase.com/m/088fh yellow] and
 [http://www.freebase.com/m/019sc black].
-For 
-[http://www.freebase.com/medicine/anatomical_structure?instances= body parts], we have
-[http://www.freebase.com/m/0k0pj nose]
-[http://www.freebase.com/m/039xj_ ear].
 Note that freebase contains pictures and translation to other languages.
 
 In a later assignment we will use freebase API to extract the photos and translations.
