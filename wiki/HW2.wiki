@@ -8,3 +8,36 @@ For example, [https://code.google.com/p/nyu-gaming-course-2013/source/browse/tru
 == Group HW2 ==
 Build a roadmap, and add it to [https://docs.google.com/presentation/d/1YyhLG0aKsBZe18udbKUo8d79bKqWMXkW-eZVh6SJOXI/edit#slide=id.p our slides].
 Plan to have a basic version working on FB in 6 lessons and a mobile app in 8 lessons. Afterward improve with iteration based on user feedback.
+
+
+===Building the vocabulary content together===
+Add 100 words to our list of modules (each module should contain 10-400 words) in this [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdGtBTDlpR2tYTzFLOV9Yb2o4bFdzRXc#gid=0 spreadsheet]. We will use these words for our common database of words.
+Make sure not to work on words/list that someone else is adding,
+and don't forget to only add words in your columns.
+
+Here are some ideas:
+[http://www.manythings.org/vocabulary/lists/a/ Basic Vocabulary Word Lists], 
+[http://www.manythings.org/vocabulary/lists/b/ Beginner Vocabulary], 
+[http://www.manythings.org/vocabulary/lists/c/ Comprehensive lists], 
+[http://www.manythings.org/vocabulary/lists/l/ long lists],
+[http://www.manythings.org/vocabulary/lists/2/ word pairs],
+[http://www.manythings.org/vocabulary/lists/l/words.php?f=ogden-picturable these nouns]
+
+Each modules is a JSON file with the following format:
+{{{
+{
+  'yellow': '088fh',
+  'black': '019sc',
+   ...
+}
+}}}
+The codes are the ID in free base, e.g., for [http://www.freebase.com/visual_art/color?instances= colors], we have
+[http://www.freebase.com/m/088fh yellow]
+[http://www.freebase.com/m/019sc black].
+For 
+[http://www.freebase.com/medicine/anatomical_structure?instances= body parts], we have
+[http://www.freebase.com/m/0k0pj nose]
+[http://www.freebase.com/m/039xj_ ear].
+Note that freebase contains pictures and translation to other languages.
+
+In a later assignment we will use freebase API to extract the photos and translations.
