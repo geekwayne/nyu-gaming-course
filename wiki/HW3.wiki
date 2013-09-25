@@ -11,6 +11,7 @@ You should have an option to start a new game.
 
 Add [https://developers.google.com/web-toolkit/doc/latest/DevGuideCodingBasicsHistory history support], i.e., you can use the back and forward buttons in the browser to move the game state back and forward.
 
+Upload your game to AppEngine, and add a link to your game in your commit message. Note that in this HW, you do not have any server-side code (you only upload HTML, JS, and CSS to AppEngine).
 
 You may copy code from last year's course:
   # Chinese chess: [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiGraphics.java View] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiGraphics.ui.xml UiBinder] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiPresenter.java Presenter]
