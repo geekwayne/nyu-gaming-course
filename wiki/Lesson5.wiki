@@ -9,7 +9,7 @@
   * Manifest for offline playing,
   * flexible-box-model.
 
-Talk from Google web designer (previously known as Ninja).
+On 13/11 we'll also have a guest talk about [http://techcrunch.com/2013/06/04/google-will-soon-launch-google-web-designer-a-free-html5-development-tool-for-creating-web-apps-sites-and-ads/ Google web designer].
 <wiki:comment>
 (skranzberg@).
 </wiki:comment>
