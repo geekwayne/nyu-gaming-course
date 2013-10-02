@@ -17,6 +17,62 @@ You may copy code from last year's course:
   # Chinese chess: [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiGraphics.java View] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiGraphics.ui.xml UiBinder] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/xiangqi/XiangqiPresenter.java Presenter]
   # Checkers: [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Graphics.java View] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Graphics.ui.xml UiBinder] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Presenter.java Presenter]
   
+
+Example of how history was done last semester:
+[https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw3/Presenter.java?spec=svn590&r=590 Presenter with History]
+
+The relevant code:
+{{{
+History.newItem(serializeState(state));
+
+        public void initializeHistory() {
+                History.addValueChangeHandler(new ValueChangeHandler<String> () {
+                        @Override
+                        public void onValueChange(ValueChangeEvent<String> event) {
+                                String historyToken = event.getValue();
+                                setState(unserializeState(historyToken));
+                        }
+                });
+                String startState = History.getToken();
+                setState(unserializeState(startState));
+                initializedHistory = true;
+        }
+}}}
+
+
+Example of how mockito was used last semester to test the Presenter class:
+[https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/test/org/simongellis/hw3/PresenterTest.java?spec=svn529&r=529 PresenterTest with Mockito]
+The relevant code:
+{{{
+        @Before
+        public void setup() {
+                presenter = new Presenter();
+                view = Mockito.mock(Presenter.View.class);
+                ...
+                HasClickHandlers dummyResetButton = Mockito.mock(HasClickHandlers.class);
+                when(view.getResetButton()).thenReturn(dummyResetButton);
+                presenter.setView(view);
+        }
+
+        @Test
+        public void testCheckmateDisplayed() {
+                GameResult whiteCheckmate = new GameResult(Color.WHITE, GameResultReason.CHECKMATE);
+                ...
+                State state = new State(
+                                Color.BLACK,
+                                board,
+                                ...
+                                whiteCheckmate);
+                presenter.setState(state);
+                verify(view).setGameResult(whiteCheckmate);
+        }
+}}}
+
+
+You will need to start a GWT project for HW3. I never showed you how it's done, but it's pretty simple, e.g., this URL explains how to create an empty GWT project (I recommend letting eclipse generating sample code - it will make things easier on you):
+[http://www.gwtproject.org/doc/latest/tutorial/create.html#create GWT tutorial].
+After you created the sample GWT project, then you can copy your java classes to the "shared" directory (that directory is shared between server and client code). Then create a state instance from the GWT code, and make sure GWT compilation succeeds. Then continue to building the UI...
+
 ==Group HW3==
 Start implementing your roadmap.
 Every week you should add a slide to [https://docs.google.com/presentation/d/1YyhLG0aKsBZe18udbKUo8d79bKqWMXkW-eZVh6SJOXI/edit#slide=id.p our slides] that describes your progress: you should always first mention what you promised to do last week (or in your roadmap), what you accomplished doing, and what you're planning to do next week (so the pattern is: past, present, future).
