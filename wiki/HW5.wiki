@@ -8,3 +8,8 @@ You should be able to move the pieces using two ways:
   # Just by clicking - then you should see an animation of the piece moving.
   # drag-n-drop - then there shouldn't be any animation (the piece should just appear in the destination).
 
+Example from previous year:
+  # [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw5/ MP3 and WAV sounds]
+  # [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw5/GameSounds.java Including the sounds using ClientBundle]
+  # [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw5/PieceMovingAnimation.java class extending Animation]
+  # [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw3/Graphics.java#521 Graphics using drag-n-drop, sounds, local storage, and the animation class]
