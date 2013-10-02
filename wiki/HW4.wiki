@@ -1,7 +1,5 @@
 #summary HW4
 
-GWTTestCase, selenium test, use dependency injection.
+HW4 is canceled - do instead HW5.
 
-Adding [https://code.google.com/p/gwt-log/wiki/GettingStarted gwt-log].
-
-Dependency injection (dagger or guice).
+HW4 used to be to create a GWTTestCase, selenium test, use dependency injection (dagger or guice/GIN), and adding [https://code.google.com/p/gwt-log/wiki/GettingStarted gwt-log].
