@@ -19,7 +19,7 @@ You may copy code from last year's course:
   
 
 Example of how history was done last semester:
-[https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw3/Presenter.java?spec=svn590&r=590 Presenter with History]
+[https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw3/Presenter.java?spec=svn590&r=590 Presenter with History]. Look at how `History` class was used, and look at the `serializeState` and `unserializeState` methods that change a state into a string and back.
 
 The relevant code:
 {{{
