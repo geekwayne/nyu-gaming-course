@@ -6,7 +6,7 @@ The players should pass their moves using [https://developers.google.com/web-too
 
 You should remove/disable the history support you added in HW3.
 
-You should use this GWT plugin for Channel API: [https://code.google.com/p/gwt-gae-channel/ gwt-gae-channel]
+You should use this GWT plugin for Channel API: [https://code.google.com/p/gwt-gae-channel/wiki/HowToUse gwt-gae-channel]
 Don't forget to add to your .gwt.xml:
 {{{
 <inherits name='com.google.gwt.appengine.channel.Channel'/>
