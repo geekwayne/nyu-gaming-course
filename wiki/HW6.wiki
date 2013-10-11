@@ -3,6 +3,7 @@
 Create a multiplayer version of your game on AppEngine!
 You should auto-match the players, i.e., simply match any two waiting players. 
 The players should pass their moves using [https://developers.google.com/web-toolkit/doc/latest/tutorial/RPC GWT-RPC] (to AppEngine) and [https://developers.google.com/appengine/docs/java/channel/overview Channel API] (from AppEngine).
+The client should also use RPC at the beginning to get the channel token and to find an auto-match.
 
 You should remove/disable the history support you added in HW3.
 
