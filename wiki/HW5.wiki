@@ -2,6 +2,10 @@
 
 Advanced graphics: animations for the moves, drag-n-drop the pieces, sounds (for the moves and for ending the game), save&load (using local storage).
 
+If your can't support drag-n-drop in any reasonable way (e.g., a poker game, mancala, etc), then just add drag-n-drop to two labels `drag me` and `drag onto me` and change the size/color of the labels on drag over and drop events.
+
+As usual, upload your game to your AppEngine, and write the URL in the commit message. Make sure to increment the `version` number in your `appengine-web.xml` so the grader could still access the old HW. I recommend setting the `version` number to the HW number.
+
 Make sure that your game will still work even in old browsers that do not support these features.
 
 You should be able to move the pieces using two ways:
