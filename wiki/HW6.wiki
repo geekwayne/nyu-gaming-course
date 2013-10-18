@@ -14,6 +14,11 @@ Don't forget to add to your .gwt.xml:
 <inherits name='com.google.gwt.inject.Inject'/>
 }}}
 
+Instantiate `Channel` like this:
+{{{
+Channel channel = new ChannelFactoryImpl().createChannel(result);
+}}}
+
 The player should be able to [https://developers.google.com/appengine/docs/java/users/overview login using his Google account], and then the game will display the user name.
 
 As usual, upload your game to AppEngine (don't forget to increment the `version` number!), and test it live in at least two browsers (chrome / firefox / safari / IE).
