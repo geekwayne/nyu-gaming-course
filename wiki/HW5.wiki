@@ -1,6 +1,6 @@
 #summary HW5
 
-Advanced graphics: animations for the moves, drag-n-drop the pieces, sounds (for the moves and for ending the game), save&load (using local storage).
+Advanced graphics: animations for the moves, drag-n-drop the pieces, sounds (for the moves and for ending the game), save&load (using local storage). Have save and load buttons in your UI.
 
 If your can't support drag-n-drop in any reasonable way (e.g., a poker game, mancala, etc), then just add drag-n-drop to two labels `drag me` and `drag onto me` and change the size/color of the labels on drag over and drop events.
 
