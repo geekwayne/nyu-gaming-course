@@ -23,7 +23,7 @@
   * [HW9]: AI
   * [Lesson13 Lesson]: FB and OAuth2
   * [HW13 HW]: FB
-  * [https://www.google.com/webdesigner/ Google Web Designer]
+  * [https://www.google.com/webdesigner/ Lesson]: Google Web Designer
   * [Lesson10 Lesson]: Mobile site & mgwt
   * [HW10 HW]: Mobile & Offline
   * [Lesson11 Lesson]: PhoneGap
