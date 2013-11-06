@@ -21,12 +21,11 @@
   * [HW8]: I18n and ranking
   * [Lesson9]: AI
   * [HW9]: AI
-  * [Lesson10]: Mobile site & mgwt
-  * [HW10]: Mobile & Offline
-  * [Lesson11]: PhoneGap
-  * [HW11]: Invite your contacts
-  * [Lesson12]: Canvas, GWTBox2D, JSNI, OAuth2, FB login
-  * [HW12]: FB login and load testing
-  * [Lesson13]: Advanced FB
-  * [HW13]: Advanced FB
-  * Lesson 14: Group presentations
+  * [Lesson13 Lesson: FB and OAuth2]
+  * [HW13 HW: FB]
+  * [https://www.google.com/webdesigner/ Google Web Designer]
+  * [Lesson10 Lesson: Mobile site & mgwt]
+  * [HW10 HW: Mobile & Offline]
+  * [Lesson11 Lesson: PhoneGap]
+  * [HW11 HW: Invite your contacts]
+  * [Lesson12 Lesson: Canvas, GWTBox2D, JSNI]
