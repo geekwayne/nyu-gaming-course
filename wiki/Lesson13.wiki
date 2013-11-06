@@ -4,4 +4,5 @@
     # [https://developers.facebook.com/tools/console/ Test console]
     # [https://developers.facebook.com/tools/explorer?method=GET&path=me Graph explorer]
   * [https://github.com/olams/GwtFB/tree/master/src/com/gwtfb FB API GWT wrapper]
+  * [http://www.slideshare.net/aaronpk/an-introduction-to-oauth-2 OAuth2 intro], [https://developers.facebook.com/docs/facebook-login/access-tokens/ FB access tokens]
   * [https://github.com/xauth/xauth XAuth]
