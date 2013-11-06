@@ -1,7 +1,14 @@
 #summary FB app
 
 Add the following to your game:
-  # *FB friends*: Load the user friends (their names and avatar URLs). 
-  # *FB feed*: Use [https://developers.facebook.com/docs/reference/dialogs/feed/ Feed dialog] to share the board image. In addition to adding the Share button, also open the share dialog when a user makes the winning move, to allow the user to brag about his win! (see [https://developers.facebook.com/docs/concepts/feed/ feed guidance]). 
+  # *FB login*: Use [https://developers.facebook.com/docs/reference/plugins/login/ Login button] and replace the `email` in the `Player` entity with a `fbId`.
+  # *FB like*: Add a [https://developers.facebook.com/docs/plugins/like-button/ like button].
+  # *FB friends*: Use [https://developers.facebook.com/docs/reference/api/user/#friends Graph API] and [https://github.com/olams/GwtFB/blob/master/src/com/gwtfb/sdk/FBCore.java it's GWT wrapper] to load the user friends (their names and avatar URLs).
+
+
+I recommend having at most one match with each friend (to simplify the UI).
+
+Also add *one* of the following 3 features:
+  # *FB feed*: Use [https://developers.facebook.com/docs/reference/dialogs/feed/ Feed dialog] to let a user brag about his win (only show the feed dialog after a user wins). (see [https://developers.facebook.com/docs/concepts/feed/ feed guidance]). 
   # *Send messages* : Use [https://developers.facebook.com/docs/reference/dialogs/send/ Send dialog] to send an invite to a new user. 
   # *FB notifications*: Use [https://developers.facebook.com/docs/concepts/notifications/ Notifications] to tell an existing user that a move was made. 
