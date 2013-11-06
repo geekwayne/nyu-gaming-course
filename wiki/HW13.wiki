@@ -10,5 +10,5 @@ I recommend having at most one match with each friend (to simplify the UI).
 
 Also add *one* of the following 3 features:
   # *FB feed*: Use [https://developers.facebook.com/docs/reference/dialogs/feed/ Feed dialog] to let a user brag about his win (only show the feed dialog after a user wins). (see [https://developers.facebook.com/docs/concepts/feed/ feed guidance]). 
-  # *Send messages* : Use [https://developers.facebook.com/docs/reference/dialogs/send/ Send dialog] to send an invite to a new user. 
-  # *FB notifications*: Use [https://developers.facebook.com/docs/concepts/notifications/ Notifications] to tell an existing user that a move was made. 
+  # *FB requests* : Use [https://developers.facebook.com/docs/games/requests/ requests] to send an invite to a new user. 
+  # *FB notifications*: Use [https://developers.facebook.com/docs/concepts/notifications/ Notifications] to tell an existing user that a move was made. Only send one or two notifications to people each day.
