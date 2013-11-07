@@ -1,6 +1,6 @@
 #summary Box2D and PlayN
 
-  * [http://gwtbox2d.appspot.com/ GWT-Box2D showcase] and [https://code.google.com/p/gwtbox2d/ its code].
+  * [http://gwtbox2d.appspot.com/ GWT-Box2D showcase] and [https://code.google.com/p/gwtbox2d/ its code]. The [http://box2d-js.sourceforge.net/index2.html JavaScript Box2D].
   * 40 min: PlayN: [http://www.google.com/events/io/2011/sessions/kick-ass-game-programming-with-google-web-toolkit.html PlayN in GoogleIO-2011] and [http://youtu.be/6ZiK8FJWVKY video] ([http://proppy-playn101.appspot.com/#1 playn101] and [http://playn-2011.appspot.com/slides/index.html playn201])
 
   
