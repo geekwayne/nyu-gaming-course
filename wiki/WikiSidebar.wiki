@@ -24,8 +24,10 @@
   * [Lesson13 Lesson]: FB and OAuth2
   * [HW13 HW]: FB
   * [https://www.google.com/webdesigner/ Lesson]: Google Web Designer
-  * [Lesson10 Lesson]: Mobile site & mgwt
-  * [HW10 HW]: Mobile & Offline
-  * [Lesson11 Lesson]: PhoneGap
-  * [HW11 HW]: Invite your contacts
-  * [Lesson12 Lesson]: Canvas, GWTBox2D, JSNI
+  * [HW_Eggs1 HW]: Physics game
+  * Previously taught
+    * [Lesson10 Lesson]: Mobile site & mgwt
+    * [HW10 HW]: Mobile & Offline
+    * [Lesson11 Lesson]: PhoneGap
+    * [HW11 HW]: Invite your contacts
+    * [Lesson12 Lesson]: Canvas, GWTBox2D, JSNI
