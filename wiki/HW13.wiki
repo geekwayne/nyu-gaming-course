@@ -12,3 +12,5 @@ Also add *one* of the following 3 features:
   # *FB feed*: Use [https://developers.facebook.com/docs/reference/dialogs/feed/ Feed dialog] to let a user brag about his win (only show the feed dialog after a user wins). (see [https://developers.facebook.com/docs/concepts/feed/ feed guidance]). 
   # *FB requests* : Use [https://developers.facebook.com/docs/games/requests/ requests] to send an invite to a new user. 
   # *FB notifications*: Use [https://developers.facebook.com/docs/concepts/notifications/ Notifications] to tell an existing user that a move was made. Only send one or two notifications to people each day.
+
+As usual, you should upload your game to AppEngine (incrementing the version), and give a URL that the grader could use.
