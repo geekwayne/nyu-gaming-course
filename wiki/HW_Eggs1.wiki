@@ -13,7 +13,6 @@ You need to collect at least one egg to pass a level, but you should collect as 
 The game will have several easter eggs (balls) that you need to bring to a final destination and decorate them along the way,
 like a combination between "Where is my water" (but with balls instead of water to make the physics simpler), "Cut the rope", and any other physics game you like (http://en.wikipedia.org/wiki/Lemmings_(video_game) lemmings], [http://en.wikipedia.org/wiki/The_Incredible_Machine_(series) Incredible machine], etc). The eggs could smash, you could have different types of eggs (exploding, metallic, rubber, delicate, oil/powder filled, toxic, ), different types of paths (fixed walls, you could dig your own paths in dirt, sticky paths) and other mechanics (ropes, moving beams, trampoline, triggers, etc). 
 
-Each level in the game will a different keyframe, and we will create the levels in Google Web Designer (GWD) instead of building a dedicated level editor.
 
 In *later HWs* we'll add other components to the game, such as
   * Level selector, and grouping the levels into themes.
@@ -23,3 +22,4 @@ In *later HWs* we'll add other components to the game, such as
   * Show score (time bonus, egg bonus, decoration bonus)
   * Saving to local storage
   * Login to FB, social features and save on AppEngine
+  * Nice UI using Google Web Designer (GWD)
