@@ -1,0 +1,9 @@
+#summary Mobile and physics engine lesson
+
+  * [http://www.google.com/events/io/2011/sessions/html5-versus-android-apps-or-web-for-mobile-development.html HTML vs Native apps]
+  * [http://docs.phonegap.com/en/2.6.0/index.html PhoneGap APIs], [http://docs.phonegap.com/en/2.6.0/cordova_contacts_contacts.md.html#contacts.find Contacts API], [http://phonegap.com/about/feature/ Features], 
+  * [https://build.phonegap.com/docs/preparing-your-app PhoneGap Build], [https://build.phonegap.com/docs/config-xml Config.xml]
+  * [http://box2d-js.sourceforge.net/ Box2D JS demo]
+  * [https://developers.google.com/closure/compiler/ closure]
+  * [http://jquerymobile.com/demos/1.0a4.1/ Mobile jQuery]
+  * [https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics/Drawing_graphics_with_canvas Draw on Canvas]
