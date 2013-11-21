@@ -1,7 +1,7 @@
 #summary Easter Egg hunt: Physics game HW1
 
 Each student should build 5 levels in the Egg hunt game using
-[http://box2d-js.sourceforge.net/index2.html JavaScript Box2D] or [https://code.google.com/p/box2dweb/wiki/BasicUsage Box2DWeb].
+[https://code.google.com/p/box2dweb/wiki/BasicUsage Box2DWeb] (see [http://www.box2dflash.org/docs/2.1a/reference/ documentation]).
 
 As usual, upload the game to your AppEngine and give the URL in your commit message.
 I'll choose the best game next week, and we'll work together on extending it.
