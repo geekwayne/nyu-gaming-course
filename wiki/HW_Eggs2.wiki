@@ -11,3 +11,19 @@ As a group:
   * Merge all the levels in your group (60 levels) into one game.
   * The managers should come up with a plan for the next two group HWs (and execute them, making sure to coordinate between the engineers). The managers will present their plan next lesson, and talk to the engineers to make sure everything is clear. 
   * The end goal is a game working on mobile devices with basic FB integration (the user *could* log into FB, but the user could also play the game without logging into FB).
+
+The first group:
+  * Manager: Abhishek Ajit Jathan
+  * Yiwei Li
+  * Daniel Widjaja
+  * Juan Pablo Munoz
+  * Zeyu He
+  * Micha-Jamie Guthmann
+
+The second group:
+  * Manager: Khen Price
+  * Chaolun Ni
+  * Jocelyn Schulz
+  * Kevin Mullin
+  * Shuo Li
+  * Vedant Agrawal
