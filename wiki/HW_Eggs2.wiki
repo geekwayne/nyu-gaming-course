@@ -11,6 +11,7 @@ As a group:
   * Merge all the levels in your group (60 levels) into one game.
   * The managers should come up with a plan for the next two group HWs (and execute them, making sure to coordinate between the engineers). The managers will present their plan next lesson, and talk to the engineers to make sure everything is clear. 
   * The end goal is a game working on mobile devices with basic FB integration (the user *could* log into FB, but the user could also play the game without logging into FB).
+  * The managers will have 30 minutes each in the next lesson to present their plan to divide the work in the remaining two HWs.
 
 The first group:
   * Manager: Abhishek Ajit Jathan
