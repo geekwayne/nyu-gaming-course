@@ -28,7 +28,7 @@
   * [Lesson_Mobile_Physics Lesson]: Mobile and Physics engines
   * [HW_Eggs2 HW]: Individual physics game 2
   * [HW_GroupEggs1 HW]: Group physics game 1
-  * [HW_GroupEggs2 HW]: Group physics game 1
+  * [HW_GroupEggs2 HW]: Group physics game 2
   * Previously taught
     * [Lesson10 Lesson]: Mobile site & mgwt
     * [HW10 HW]: Mobile & Offline
