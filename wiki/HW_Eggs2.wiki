@@ -6,6 +6,12 @@ Individually:
   * Upload your game to AppEngine and give the URL in your commit message.
   * I recommend using closure to make sure you don't have JavaScript errors.
 
+If anyone is facing the problem with zoom-in and zoom-out on mobile, try adding the meta viewport tag to your game:
+{{{
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0"> 
+}}}
+You can change the permitted zoom-in and zoom-out levels using the initial-scale and maximum-scale.
+
 As a group:
   * I divided you into two groups (each group has 5 engineers and 1 manager)
   * Merge all the levels in your group (60 levels) into one game.
