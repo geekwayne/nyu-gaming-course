@@ -3,3 +3,5 @@
 HW4 is canceled - do instead HW5.
 
 HW4 used to be to create a GWTTestCase, selenium test, use dependency injection (dagger or guice/GIN), and adding [https://code.google.com/p/gwt-log/wiki/GettingStarted gwt-log].
+
+[https://github.com/google/gwtmockito GWT Mockito]
