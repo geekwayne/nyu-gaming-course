@@ -23,3 +23,7 @@ In *later HWs* we'll add other components to the game, such as
   * Saving to local storage
   * Login to FB, social features and save on AppEngine
   * Nice UI using Google Web Designer (GWD)
+
+Some tips:
+  * [https://www.iforce2d.net/rube/# RUBE Box2D Editor] is useful for editting your levels.
+  * [http://www.jpmresearch.info/?page_id=733 How to add sounds in JS]
