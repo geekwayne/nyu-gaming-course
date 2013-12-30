@@ -1,11 +1,11 @@
 #summary Grading
 
-There will be 14 lessons, 14 individual home works (HWs) of equal weight (30%-70% of the final grade), and one group assignment (30%-70% of the final grade).
+There will be 8-12 game homeworks (HWs) of equal weight (50% of the final grade), and 1-2 platform homeworks (50% of the final grade).
 
-Create your own individual project and your group project (on Google code) and add them to our [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=2 spreadsheet].
+Add your email and name to our [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=3 spreadsheet].
 
-=Individual HWs=
-Each individual assignment will be submitted into your individual project using a *single commit* any time before our lecture starts.
+=Game HWs=
+Each individual assignment will be submitted into your individual project (either on google code or github) using a *single commit* any time before our lecture starts.
 The *deadline is strict* - any submission after the deadline will not be graded.
 
 The grader will go over your committed code, review it and give you feedback and your grade for that HW.
@@ -15,15 +15,14 @@ All work is individual - no team work is allowed.
 Copying will be dealt with harshly (i.e., failing the course).
 
  
-=Group assignment=
-Divide into teams of 2-3 students, and work on creating a game for learning a new language (improving your vocabulary) and launch it on FB and as an android mobile app.
-I will give you feedback throughout the course, but the final grade will be decided at the end of the course based on various criteria (game novelty, game play, code quality, popularity of the game, user feedback, etc).
+=Platform HWs=
+We will all work together on building a gaming platform ([https://github.com/yoav-zibin/multiplayer-gaming-platform/ GitHub multiplayer gaming platform project]).
 
-The stages of project is as follows:
-  # Part 1: Form groups and decide on a game (describe it in a slide using 2-5 sentences and a printscreen).
-  # Part 2: UI design: submit diagrams/printscreens of all screens in your game. Design for mobile usage. Plan your roadmap.
-  # Part 3: Desktop and mobile prototype, launch a working version on FB and android after 7 lessons.
-  # Iterate and add features and fix bugs according to user feedback.
-  # Add documentation (both written documentation, printscreens, and a 5 minute video showing how to use the game) and I18n.
+Each student will own a *feature*, write a design doc for it, implement it, test it, and launch it. 
+See examples and deadlines in the [https://docs.google.com/document/d/15U_p6d901fov1rxNCyuZmOVF9NavASEuGIMf5AIGHTU/edit platform assignments doc].
 
-You may commit as often as you like into your group project, and you may copy code from anywhere on the internet, but don't copy code from other teams.
+The feature will usually require changes in several *components* (emulator, game container, server, documentation, developer console, etc).
+Each *component* will have a manager whose job is to own that component, *review* all changes to it, test changes, and make sure the component is consistent and functional. The managers will also describe and rank what contributions each student made to their component.
+Managers will own smaller *feature* than non-manangers.
+
+You may copy code from anywhere on the internet for the platform HWs as long it is clearly marked with a URL pointing to the source.
