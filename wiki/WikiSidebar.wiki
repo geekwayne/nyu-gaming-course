@@ -9,6 +9,7 @@
   * [HW2]: Implementation of game logic
   * [Lesson3]: GWT UiBinder, MVP
   * [HW3]: Graphics.
+  * [Lesson_JuryApi Lesson]: JuryAPI
   * [Lesson4]: Mockito, Selenium and GIN
   * [HW4]: GWT and selenium tests
   * [Lesson5]: HTML5
