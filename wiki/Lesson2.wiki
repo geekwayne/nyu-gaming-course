@@ -3,6 +3,7 @@
 Browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON, GWT (intro).
 
 = Lesson plan =
+  * Starting with eclipse and GWT, explain all the generated files.
   * 30 min: Presentation and review of HW1.
   * 5 min: [https://docs.google.com/present/edit?id=0AfLEQb_5Yz6RZGdwYzM0aDZfOWcyN3R6a2N4 HTTP]
   * 20 min: Demo: [http://upload.wikimedia.org/wikipedia/commons/c/c6/Http_request_telnet_ubuntu.png telnet], Network panel (chrome's console or Firebug), javascript panel.
