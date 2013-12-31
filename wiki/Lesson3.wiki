@@ -3,6 +3,7 @@
 = Lesson plan =
 GWT continued (UI, RPC)
   * 20 min: Presentation and review of HW2.
+  * MVP + Mockito (with examples)
   * 30 min: [http://dl.google.com/io/2009/pres/Th_0200_GoogleWebToolkitArchitecture-BestPracticesForArchitectingYourGWTApp.pdf RPC and MVP pattern], see [http://www.google.com/events/io/2009/sessions/GoogleWebToolkitBestPractices.html this talk].
   * 40 min: [https://docs.google.com/file/d/0B_LEQb_5Yz6RRzRyaENaYnZ1aWs/edit?usp=sharing UiBinder and panels], see also [http://www.google.com/events/io/2010/sessions/gwt-ui-overhaul.html this talk]
   * 10 min: [http://dl.google.com/io/2009/pres/W_1115_GWTCanDoWhat.pdf Client bundle pages 17-21], from [http://www.google.com/events/io/2009/sessions/GwtPreviewGoogleWebToolkit2.html this talk]
