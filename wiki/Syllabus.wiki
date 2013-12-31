@@ -7,7 +7,7 @@ After the lesson, in the classroom.
 
 ==Short bio about the lecturer==
 [http://flash-together.appspot.com/yoavzibin/CV.pdf Yoav Zibin] did his PhD in the Technion, a postdoc in MIT, worked in IBM research, and now in Google NYC.
-He co-founded and worked for 3 years in a multiplayer gaming startup called [http://www.come2play.com Come2Play] that serves casual games to more than 5 million monthly users ([https://www.facebook.com/PlayChess?fref=ts Chess page]).
+He co-founded and worked for 3 years in a multiplayer gaming startup called [http://www.come2play.com Come2Play] (0.5 million monthly FB users for its Chess app, and 6M likes to its [https://www.facebook.com/PlayChess?fref=ts Chess page]).
 
 ==Short course description==
 Previous courses (the course material will be more or less the same):
