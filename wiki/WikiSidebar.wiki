@@ -5,11 +5,11 @@
   * [Eclipse]
   * [Lesson1]: Overview, JUnit
   * [HW1]: Write unit tests for game logic
-  * [Lesson2]: Internet and GWT intro
-  * [HW2]: Implementation of game logic
-  * [Lesson3]: GWT UiBinder, MVP
-  * [HW3]: Graphics.
   * [Lesson_JuryApi Lesson]: JuryAPI
+  * [HW2]: Implementation of game logic
+  * [Lesson2]: Internet and GWT intro
+  * [Lesson3]: GWT UiBinder, MVP
+  * [HW3]: GWT Graphics.
   * [Lesson4]: Mockito, Selenium and GIN
   * [HW4]: GWT and selenium tests
   * [Lesson5]: HTML5
