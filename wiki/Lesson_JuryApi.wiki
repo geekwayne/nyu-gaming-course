@@ -6,9 +6,9 @@
 Talk about the [https://docs.google.com/document/d/15U_p6d901fov1rxNCyuZmOVF9NavASEuGIMf5AIGHTU/edit# platform assignment] and [https://docs.google.com/document/d/1MYGYmeYy15tK_UjnSlogord7t92LV0HiAnUgf49oRXo/edit API doc].
 
 
-= Git and GitHub =
+= Git and Github =
 
-Working with GitHub, [https://github.com/features GitHub features]
+Working with Github, [https://github.com/features Github features]
 
 Working with GIT:
   * [https://www.atlassian.com/git/workflows#!workflow-centralized Git workflows]
