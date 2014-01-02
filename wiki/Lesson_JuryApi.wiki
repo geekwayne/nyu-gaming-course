@@ -16,6 +16,7 @@ Working with GIT:
   * [http://sixrevisions.com/resources/git-tutorials-beginners/ Git tutorial]
   * [http://rogerdudler.github.io/git-guide/ Simple Git guide]
 
-= Coding style =
+= Coding style, practices, and reviews =
   * Read [https://gaming-platform.googlecode.com/svn/trunk/eclipse/gaming-platform/documents/JavaStyleGuide.html Java Style Guide], and a shorter version here: [http://code.google.com/webtoolkit/makinggwtbetter.html#codestyle GWT Style Guide].
   * [https://gaming-platform.googlecode.com/svn/trunk/eclipse/gaming-platform/documents/GoodCodingPractices.html Good coding practices]
+  * [https://gaming-platform.googlecode.com/svn/trunk/eclipse/gaming-platform/documents/code_review.html Code review]
