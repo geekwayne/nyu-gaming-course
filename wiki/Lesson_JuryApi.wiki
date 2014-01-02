@@ -4,3 +4,14 @@
 [https://drive.google.com/file/d/0B_LEQb_5Yz6ROTNtRjI4Z3Y0VGp5OGtSTy1ISWlSTmh0UGdV/edit?usp=sharing JuryAPI paper] on Secure Client-Side-Only Multiplayer Gaming API.
 
 Talk about the [https://docs.google.com/document/d/15U_p6d901fov1rxNCyuZmOVF9NavASEuGIMf5AIGHTU/edit# platform assignment] and [https://docs.google.com/document/d/1MYGYmeYy15tK_UjnSlogord7t92LV0HiAnUgf49oRXo/edit API doc].
+
+
+= Git and GitHub =
+
+Working with GitHub, [https://github.com/features GitHub features]
+
+Working with GIT:
+  * [https://www.atlassian.com/git/workflows#!workflow-centralized Git workflows]
+  * [http://try.github.io/levels/1/challenges/1 Basic Git commands]
+  * [http://sixrevisions.com/resources/git-tutorials-beginners/ Git tutorial]
+  * [http://rogerdudler.github.io/git-guide/ Simple Git guide]
