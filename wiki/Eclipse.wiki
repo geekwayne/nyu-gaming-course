@@ -3,10 +3,17 @@
 ==Setup==
   # Download and install [http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/junosr2 Eclipse for Java developers]
   # Install the eclipse plugin for [http://code.google.com/appengine/docs/java/tools/eclipse.html gwt+appengine] 
-  # Install SVN eclipse plugin: [http://www.eclipse.org/subversive/documentation/gettingStarted.php subversive] with [http://svnkit.com/download.php SVNKit Connectors] (if that fails, you can try [http://www.ibm.com/developerworks/opensource/library/os-ecl-subversion/ subclipse])
-  # Learn <a href="http://www.ling.ohio-state.edu/~scott/talks/svntutorial/lcc_subversion_tutorial.pdf">what is SVN</a> and <a href="http://www.ibm.com/developerworks/java/library/j-subversion/index.html">how to use it</a>. I also recommend installing [http://tortoisesvn.net/ tortoise SVN] if you have windows.
-  # Get your [http://code.google.com/hosting/settings Google's SVN password]. You'll need it for the next stage to checkout the code.
-  # From eclipse, checkout your project, follow [http://www.ibm.com/developerworks/opensource/library/os-ecl-subversion/ these instructions]
+  # In `Preferences->General->Editors->Text Editors`, set `Display tab width` to `2`, check `Insert spaces for tabs`, and set `Print margin column` to `100`.
+  # Install [http://www.eclipse.org/egit/ EGit] and clone our repository 
+{{{
+git clone https://github.com/yoav-zibin/multiplayer-gaming-platform.git
+}}}
+  # On windows, I also recommend [https://code.google.com/p/tortoisegit/ Tortoise Git]
+  # Install eclipse plugin [http://eclipse-cs.sourceforge.net/downloads.html CheckStyle], and in `Preferences->CheckStyle->New...` choose `External Configuration File` and enter for `Name:` the name `CheckStyleConfigurationForGamingPlatform`, and browse to 
+{{{
+gaming-platform/documents/CheckStyleConfigurationForGamingPlatform.xml
+}}}
+  
 
 ==Tips==
   * `Ctrl+Shift+O` optimizes all your imports (removes unused imports).
