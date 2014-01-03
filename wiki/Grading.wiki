@@ -6,7 +6,7 @@ Add your email and name to our [https://docs.google.com/spreadsheet/ccc?key=0AvL
 We will use the spreadsheet to track what everyone are working on.
 
 =Game HWs=
-Each individual assignment will be submitted into your individual project (either on google code or github) using a *single commit* any time before our lecture starts.
+Each individual assignment will be submitted into your individual github project using a *single commit* any time before our lecture starts.
 The *deadline is strict* - any submission after the deadline will not be graded.
 
 The grader will go over your committed code, review it and give you feedback and your grade for that HW.
