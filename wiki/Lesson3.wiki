@@ -1,4 +1,4 @@
-#summary GWT (UI, RPC, UiBinder, MVP)
+#summary GWT (UI, RPC, MVP + Mockito)
 
 = Lesson plan =
 GWT continued (UI, RPC)
