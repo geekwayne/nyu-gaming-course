@@ -3,12 +3,7 @@
 Graphics for your game (MVP + unit tests for Presenters).
 See the skeleton of Yoav Zibin's HW3 [https://code.google.com/p/nyu-gaming-course-2013/source/detail?r=468 here].
 
-You should be able to play your game in the browser with yourself, i.e., two human players playing in the same browser (there is no artificial intelligence or network communication in this homework).
-
-When the game ends, there should be a message that shows which color won (or if it is a draw). 
-You should have an option to start a new game.
-
-Add [https://developers.google.com/web-toolkit/doc/latest/DevGuideCodingBasicsHistory history support], i.e., you can use the back and forward buttons in the browser to move the game state back and forward.
+You should be able to play your game in the browser with yourself, i.e., two human players playing in the same browser (there is no artificial intelligence).
 
 Upload your game to AppEngine, and add a link to your game in your commit message. Note that in this HW, you do not have any server-side code (you only upload HTML, JS, and CSS to AppEngine).
 
