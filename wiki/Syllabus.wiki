@@ -36,7 +36,7 @@ Eclipse IDE for Java developers (GWT, AppEngine)
 ===Technologies Learned===
   * GWT
   * App engine - use Channel API, Objectify, email
-  * SVN
+  * Git
   * HTML5 (Canvas, WebSockets)
   * Ajax, long-polling, REST
   * Abuse-report systems
@@ -51,9 +51,10 @@ Eclipse IDE for Java developers (GWT, AppEngine)
   * [http://www.amazon.com/GWT-Action-Adam-Tacy/dp/1935182846/ref=sr_1_4?s=books&ie=UTF8&qid=1325861681&sr=1-4 GWT in Action second edition]
 
 ==Lesson breakdown==
-  # Course overview, junit, and working with SVN and Google code. GWT vs Closure.
+  # Course overview, and junit. 
+  # Jury API: the difference between the game and platform. Working with Git and Github
     * Unit tests for the game
-  # Internet 101 & GWT: browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON, GWT (intro)
+  # Internet 101 & GWT: browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON, GWT (intro). GWT vs Closure.
     * Implementation of game logic, bugs hunting using unit tests.
   # GWT continued (UI, RPC, UiBinder, MVP)
     * Graphics for your game (MVP + unit tests for Presenters)
