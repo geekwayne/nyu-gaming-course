@@ -63,17 +63,13 @@ Eclipse IDE for Java developers (GWT, AppEngine)
   # HTML5: CSS animations, drag-n-drop, sounds, manifest for offline playing, flexible-box-model
     * Advanced graphics
   # AppEngine, Polling, long-polling, ajax, Channel API
-    * Multiplayer version using auto-match, and Google login.
   # AppEngine datastore, objectify
-    * Add save & load
   # Security: I18n, Accessibility, web security, safe HTML, XSRF. Ranking: ELO, TrueSkill, simulations, convergence, ranking levels.
     * I18n the game, make the game secure (server-side validation), ranking
   # Artificial Intelligence (AI) for games. Heuristics, `A*` search, alpha-beta pruning, etc. 
     * AI for your game.
   # Mobile site & mgwt
-    * mobile site
   # phonegap & gwt-phonegap
-    * invite from contacts 
     
 Other possible topics:
   # Canvas and requestAnimationFrame, GWTBox2D, JSNI, OAuth2, FB login, Apache Jmeter for load testing.
