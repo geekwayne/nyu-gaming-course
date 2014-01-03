@@ -1,7 +1,8 @@
 #summary Advanced GWT and testing
 
   * Dependency injection in GWT (Guice and Gin).
-  * Advanced testing: GWT tests, [https://code.google.com/p/mockito/ mockito], and selenium.
+  * Advanced testing: GWT tests, [https://code.google.com/p/mockito/ mockito] and [
+[https://github.com/google/gwtmockito GWT Mockito], and selenium.
   * [https://developers.google.com/web-toolkit/doc/latest/DevGuideCodingBasicsHistory History API in GWT]
   * 40 min: [https://docs.google.com/file/d/0B_LEQb_5Yz6RRzRyaENaYnZ1aWs/edit?usp=sharing UiBinder and panels], see also [http://www.google.com/events/io/2010/sessions/gwt-ui-overhaul.html this talk]
   * 10 min: [http://dl.google.com/io/2009/pres/W_1115_GWTCanDoWhat.pdf Client bundle pages 17-21], from [http://www.google.com/events/io/2009/sessions/GwtPreviewGoogleWebToolkit2.html this talk]
