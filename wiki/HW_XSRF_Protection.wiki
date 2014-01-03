@@ -1,0 +1,7 @@
+Add [http://code.google.com/webtoolkit/doc/latest/DevGuideSecurityRpcXsrf.html XSRF protection] to your game. You will need to add to your GWT:
+{{{
+  public void onModuleLoad() {
+    Cookies.setCookie("JSESSIONID", "JSESSIONID", null, null, "/", false);
+    ...
+  }
+}}}
