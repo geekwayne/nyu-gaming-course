@@ -20,7 +20,7 @@ for web and mobile, using open technologies such as [http://code.google.com/webt
 
 [Grading]:
 The course has two big projects (broken into multiple HWs): 
-  * 50% of the grade for a game project: A multiplayer game with graphics for the web and mobile, practice mode with artificial-intelligence, save and load, animations, sounds, mobile UI, etc. The individual project is broken down into HWs (due almost every week).
+  * 50% of the grade for a game project: A multiplayer game with graphics for the web and mobile, practice mode with artificial-intelligence, save and load, animations, sounds, mobile UI, etc. The game project is broken down into HWs (due almost every week).
   * 50% of the grade for a [https://docs.google.com/document/d/15U_p6d901fov1rxNCyuZmOVF9NavASEuGIMf5AIGHTU/edit platform project] where the entire class will work as a team and each student will own a feature.
 
 The course will also teach about ranking systems, artificial intelligence for games, leaderboards, tournaments,
