@@ -1,9 +1,14 @@
 #summary Mobile and physics engine lesson
 
-  * [http://ongamestart-2011-box2d.appspot.com/#1 Box2D intro], [http://box2d-js.sourceforge.net/ Box2D JS demo]
+  * [http://ongamestart-2011-box2d.appspot.com/#1 Box2D intro], [http://box2d-js.sourceforge.net/ Box2D JS demo]. Use [https://code.google.com/p/box2dweb/wiki/BasicUsage Box2DWeb], which is better than Box2DJS (see [http://www.box2dflash.org/docs/2.1a/reference/ documentation]).
   * [http://www.google.com/events/io/2011/sessions/html5-versus-android-apps-or-web-for-mobile-development.html HTML vs Native apps]
   * [http://docs.phonegap.com/en/2.6.0/index.html PhoneGap APIs], [http://docs.phonegap.com/en/2.6.0/cordova_contacts_contacts.md.html#contacts.find Contacts API], [http://phonegap.com/about/feature/ Features], 
   * [https://build.phonegap.com/docs/preparing-your-app PhoneGap Build], [https://build.phonegap.com/docs/config-xml Config.xml]
   * [https://developers.google.com/closure/compiler/ closure]
   * [http://jquerymobile.com/demos/1.0a4.1/ Mobile jQuery]
   * [https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics/Drawing_graphics_with_canvas Draw on Canvas]
+  * [https://www.iforce2d.net/rube/# RUBE Box2D Editor] is useful for editting your levels.
+  * [http://www.jpmresearch.info/?page_id=733 How to add sounds in JS]
+
+Example of physics based games:
+Where is my water, Cut the rope, [http://en.wikipedia.org/wiki/Lemmings_(video_game) lemmings], [http://en.wikipedia.org/wiki/The_Incredible_Machine_(series) Incredible machine], Angry birds, etc.
