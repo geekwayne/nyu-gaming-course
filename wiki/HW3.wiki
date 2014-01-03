@@ -12,27 +12,6 @@ You may copy code from last year's course:
   # Checkers: [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Graphics.java View] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Graphics.ui.xml UiBinder] and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/client/games/checkers/Presenter.java Presenter]
   
 
-Example of how history was done last semester:
-[https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw3/Presenter.java?spec=svn590&r=590 Presenter with History]. Look at how `History` class was used, and look at the `serializeState` and `unserializeState` methods that change a state into a string and back.
-
-The relevant code:
-{{{
-History.newItem(serializeState(state));
-
-        public void initializeHistory() {
-                History.addValueChangeHandler(new ValueChangeHandler<String> () {
-                        @Override
-                        public void onValueChange(ValueChangeEvent<String> event) {
-                                String historyToken = event.getValue();
-                                setState(unserializeState(historyToken));
-                        }
-                });
-                String startState = History.getToken();
-                setState(unserializeState(startState));
-                initializedHistory = true;
-        }
-}}}
-
 
 Example of how mockito was used last semester to test the Presenter class:
 [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/test/org/simongellis/hw3/PresenterTest.java?spec=svn529&r=529 PresenterTest with Mockito]
@@ -63,6 +42,6 @@ The relevant code:
 }}}
 
 
-You will need to start a GWT project for HW3. I never showed you how it's done, but it's pretty simple, e.g., this URL explains how to create an empty GWT project (I recommend letting eclipse generating sample code - it will make things easier on you):
+You will need to start a GWT project for HW3. This URL explains how to create an empty GWT project (I recommend letting eclipse generating sample code - it will make things easier on you):
 [http://www.gwtproject.org/doc/latest/tutorial/create.html#create GWT tutorial].
-After you created the sample GWT project, then you can copy your java classes to the "shared" directory (that directory is shared between server and client code). Then create a state instance from the GWT code, and make sure GWT compilation succeeds. Then continue to building the UI...
+After you created the sample GWT project, then you can copy your java classes to the "shared" directory (that directory is shared between server and client code). Then create a state instance from the GWT code, and make sure GWT compilation succeeds. Then continue to building the UI.
