@@ -3,13 +3,12 @@
 = HW1 =
 For deadline and submission instructions see [https://code.google.com/p/nyu-gaming-course-2013/wiki/Grading Grading].
 
-*Important: you have two weeks to do HW1 (you can submit HW1 and HW2 together).*
+*Important: you have two weeks to do HW1*
 
 
 Administration stuff to do:
-  * Choose your group.
-  * Create two Google code projects: one for your individual game and another for your group game.
-  * Add your name & NYU & Google id with links to your individual and group projects to our  [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=3 spreadsheet]
+  * Create a Github project for your individual game.
+  * Add your name & NYU & Google id with link to your individual project to our  [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=3 spreadsheet]
   * Mailing list: register to [https://groups.google.com/forum/?fromgroups#!forum/nyu-gaming-course-winter-2014 our Google group]. If you have any problems or questions, send an email to our group: `nyu-gaming-course-winter-2014@googlegroups.com`
   * Go over all the wiki pages.
   * Install [http://www.oracle.com/technetwork/java/javase/downloads/jdk7u9-downloads-1859576.html Java JDK SE 7 Java]
@@ -91,18 +90,3 @@ Write you `State` class that describes the state of your game, e.g.,
 Make sure that your state is deterministic, i.e., if your game depends on 
 random events such as shuffling a deck of cards or rolling a dice, then 
 your state should receive them as a move (your state must not have a random dice or a shuffle method!).
-
-
-==Group HW1==
-Divide into groups of 2-3 students, and invent a game for *learning a new language*. We will focus just on learning new words (increasing the *vocabulary*), and not on grammar (because grammar rules are very different between languages). Focus on a single-player game (if time permits, we could add a multiplayer variant later).
-
-For next week, find your partners, and decide on the game play (add a slide to [https://docs.google.com/presentation/d/1YyhLG0aKsBZe18udbKUo8d79bKqWMXkW-eZVh6SJOXI/edit#slide=id.p our slides] which will have a printscreen of your game). No need to write any code.
-
-All the games will use a common database of modules of words. E.g., there will be a color module which will teach you about colors, a house objects module for objects you can find in a house, etc. We will build this database together in following assignments (each student will add a small part). The database will also contain images and translation of the words into multiple languages.
-
-Example ideas for games:
-  * Simple flash cards, or multiple choice questions, with timers, etc.
-  * Shooting game where you see an image and you need to shoot the correct word.
-  * [http://en.wikipedia.org/wiki/Concentration_(game) Memory game] where one card has the image and another has the word and you need to match them.
-  * Letter based games, e.g., [http://en.wikipedia.org/wiki/Wheel_of_Fortune_(U.S._game_show) Wheel of furtune] where you show an image and then slowly reveal one random letter at a time.
-  * Fruit ninja where you see several images and you need to slice the correct words (the images change after every level).
