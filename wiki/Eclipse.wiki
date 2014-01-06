@@ -11,7 +11,7 @@ git clone https://github.com/yoav-zibin/multiplayer-gaming-platform.git
   # On windows, I also recommend [https://code.google.com/p/tortoisegit/ Tortoise Git]
   # Install eclipse plugin [http://eclipse-cs.sourceforge.net/downloads.html CheckStyle], and in `Preferences->CheckStyle->New...` choose `External Configuration File` and enter for `Name:` the name `CheckStyleConfigurationForGamingPlatform`, and browse to 
 {{{
-gaming-platform/documents/CheckStyleConfigurationForGamingPlatform.xml
+eclipse/gaming-platform/documents/CheckStyleConfigurationForGamingPlatform.xml
 }}}
   
 
