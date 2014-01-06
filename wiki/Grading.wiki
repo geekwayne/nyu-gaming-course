@@ -1,12 +1,13 @@
 #summary Grading
 
 There will be 8-12 game homeworks (HWs) of equal weight (50% of the final grade), and 5-8 platform homeworks (50% of the final grade).
+Each HW will be submitted into the github project using a *single commit* (to make grading easier).
 
 Add your email and name to our [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=3 spreadsheet].
 We will use the spreadsheet to track what everyone are working on.
 
 =Game HWs=
-Each assignment will be submitted into your individual github project using a *single commit* any time before our lecture starts.
+The game HW deadline is always the same: any time before our lecture starts.
 The *deadline is strict* - any submission after the deadline will not be graded.
 
 The grader will go over your committed code, review it and give you feedback and your grade for that HW.
@@ -22,8 +23,9 @@ We will all work together on building a gaming platform ([https://github.com/yoa
 Each student will own a *feature*, write a design doc for it, implement it, test it, and launch it. 
 See examples and deadlines in the [https://docs.google.com/document/d/15U_p6d901fov1rxNCyuZmOVF9NavASEuGIMf5AIGHTU/edit platform assignments doc].
 
+Some students will have additional roles (and they will own smaller features), such as release engineer and component owner.
+
 The feature will usually require changes in several *components* (emulator, game container, server, documentation, developer console, etc).
-Each *component* will have a manager whose job is to own that component, *review* all changes to it, test changes, and make sure the component is consistent and functional. The managers will also describe and rank what contributions each student made to their component.
-Managers will own smaller *feature* than non-manangers.
+Each *component* will have an owner whose job is to *review* all changes to it, test changes, and make sure the component is consistent and functional. The owners will also describe and rank what contributions each student made to their component.
 
 You may copy code from anywhere on the internet for the platform HWs as long it is clearly marked with a URL pointing to the source.
