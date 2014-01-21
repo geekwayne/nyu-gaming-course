@@ -22,12 +22,12 @@
   * [Lesson13 Lesson]: FB and OAuth2
   * [Lesson4 Lesson]: Selenium and GIN
   * [HW4 HW]: GWT and selenium tests
+  * [Lesson10 Lesson]: Mobile site & mgwt
+  * [Lesson11 Lesson]: PhoneGap
   * Previously taught
     * [https://www.google.com/webdesigner/ Lesson]: Google Web Designer
     * [Lesson_Mobile_Physics Lesson]: Mobile and Physics engines
     * [Lesson12 Lesson]: Canvas, GWTBox2D, JSNI
-    * [Lesson10 Lesson]: Mobile site & mgwt
-    * [Lesson11 Lesson]: PhoneGap
     * Now these are platform assignments:
     * [HW6]: Multiplayer and Google login
     * [HW7]: Save & load
