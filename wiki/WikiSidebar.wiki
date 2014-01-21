@@ -8,10 +8,9 @@
   * [HW1]: Write unit tests for game logic
   * [Lesson2]: Internet and GWT intro
   * [HW2]: Implementation of game logic
-  * [Lesson3]: GWT UiBinder, MVP
+  * [Lesson3]: GWT UiBinder, MVP and Mockito
   * [HW3]: GWT Graphics.
-  * [Lesson4]: Mockito, Selenium and GIN
-  * [HW4]: GWT and selenium tests
+  * [AngularJS Lesson]: AngularJS
   * [Lesson5]: HTML5
   * [HW5]: Animations, drag-n-drop, sounds
   * [Lesson6]: AppEngine, Channel API
@@ -21,6 +20,8 @@
   * [Lesson9]: AI
   * [HW9]: AI
   * [Lesson13 Lesson]: FB and OAuth2
+  * [Lesson4 Lesson]: Selenium and GIN
+  * [HW4 HW]: GWT and selenium tests
   * Previously taught
     * [https://www.google.com/webdesigner/ Lesson]: Google Web Designer
     * [Lesson_Mobile_Physics Lesson]: Mobile and Physics engines
