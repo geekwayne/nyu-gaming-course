@@ -2,8 +2,9 @@
 
 =Syllabus for NYU gaming course=
 
-==Office hours==
-After the lesson, in the classroom.
+==Office hours for CSCI-GA.3033-007==
+The lesson is on Tuesdays 5:10PM — 7:00PM, in CIWW 102.
+Office hours are after the lesson, in the classroom.
 
 ==Short bio about the lecturer==
 [http://flash-together.appspot.com/yoavzibin/CV.pdf Yoav Zibin] did his PhD in the Technion, a postdoc in MIT, worked in IBM research, and now in Google NYC.
