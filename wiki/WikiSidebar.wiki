@@ -3,21 +3,21 @@
   * [Grading]
   * [Syllabus]
   * [Eclipse]
-  * [Lesson1]: Overview, JUnit
+  * [Lesson1 Lesson]: Overview, JUnit
   * [Lesson_JuryApi Lesson]: JuryAPI
   * [HW1]: Write unit tests for game logic
-  * [Lesson2]: Internet and GWT intro
+  * [Lesson2 Lesson]: Internet and GWT intro
   * [HW2]: Implementation of game logic
-  * [Lesson3]: GWT UiBinder, MVP and Mockito
+  * [Lesson3 Lesson]: GWT UiBinder, MVP and Mockito
   * [HW3]: GWT Graphics.
   * [AngularJS Lesson]: AngularJS
-  * [Lesson5]: HTML5
-  * [HW5]: Animations, drag-n-drop, sounds
-  * [Lesson6]: AppEngine, Channel API
-  * [Lesson7]: AppEngine datastore, objectify
-  * [Lesson8]: I18n, ranking and security
+  * [Lesson6 Lesson]: AppEngine, Channel API
+  * [Lesson7 Lesson]: AppEngine datastore, objectify
+  * [Lesson5 Lesson]: HTML5
+  * [HW5 HW]: Animations, drag-n-drop, sounds
+  * [Lesson8 Lesson]: I18n, ranking and security
   * [HW8]: I18n and ranking
-  * [Lesson9]: AI
+  * [Lesson9 Lesson]: AI
   * [HW9]: AI
   * [Lesson13 Lesson]: FB and OAuth2
   * [Lesson4 Lesson]: Selenium and GIN
