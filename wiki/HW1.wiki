@@ -13,7 +13,6 @@ Administration stuff to do:
   * Install [http://www.oracle.com/technetwork/java/javase/downloads/jdk7u9-downloads-1859576.html Java JDK SE 7 Java]
   * Install and configure [Eclipse]
 
-==Game HW1==
 Choose your game: it can be any turn-based two-player game that wasn't chosen already in previous years.   
 
 Write the `State` class of your game, but do not implement the logic of the `makeMove` method. Also write *20-30* unit tests for your game logic.
