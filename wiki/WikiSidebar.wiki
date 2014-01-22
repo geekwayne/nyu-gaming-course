@@ -16,9 +16,9 @@
   * [Lesson5 Lesson]: HTML5
   * [HW5 HW]: Animations, drag-n-drop, sounds
   * [Lesson8 Lesson]: I18n, ranking and security
-  * [HW8]: I18n and ranking
+  * [HW8 HW]: I18n and ranking
   * [Lesson9 Lesson]: AI
-  * [HW9]: AI
+  * [HW9 HW]: AI
   * [Lesson13 Lesson]: FB and OAuth2
   * [Lesson4 Lesson]: Selenium and GIN
   * [HW4 HW]: GWT and selenium tests
@@ -29,8 +29,8 @@
     * [Lesson_Mobile_Physics Lesson]: Mobile and Physics engines
     * [Lesson12 Lesson]: Canvas, GWTBox2D, JSNI
     * Now these are platform assignments:
-    * [HW6]: Multiplayer and Google login
-    * [HW7]: Save & load
+    * [HW6 HW]: Multiplayer and Google login
+    * [HW7 HW]: Save & load
     * [HW10 HW]: Mobile & Offline
     * [HW11 HW]: Invite your contacts
     * [HW13 HW]: FB
