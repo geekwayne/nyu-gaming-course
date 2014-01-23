@@ -12,10 +12,6 @@ The *deadline is strict* - any submission after the deadline will not be graded.
 
 The grader will go over your committed code, review it and give you feedback and your grade for that HW.
 
-*No copying!!!*
-All work is individual - no team work is allowed.
-Copying will be dealt with harshly (i.e., failing the course).
-
  
 =Platform HWs=
 We will all work together on building a gaming platform ([https://github.com/yoav-zibin/multiplayer-gaming-platform/ GitHub multiplayer gaming platform project]).
@@ -28,4 +24,4 @@ Some students will have additional roles (and they will own smaller features), s
 The feature will usually require changes in several *components* (emulator, game container, server, documentation, developer console, etc).
 Each *component* will have an owner whose job is to *review* all changes to it, test changes, and make sure the component is consistent and functional. The owners will also describe and rank what contributions each student made to their component.
 
-You may copy code from anywhere on the internet for the platform HWs as long it is clearly marked with a URL pointing to the source.
+You may copy code from anywhere on the internet as long it is clearly marked with a URL pointing to the source.
