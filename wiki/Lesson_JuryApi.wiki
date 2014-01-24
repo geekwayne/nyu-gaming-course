@@ -1,7 +1,7 @@
 #summary JuryAPI: Secure Client-Side-Only Multiplayer Gaming API
 
 = JuryAPI =
-[https://drive.google.com/file/d/0B_LEQb_5Yz6ROTNtRjI4Z3Y0VGp5OGtSTy1ISWlSTmh0UGdV/edit?usp=sharing JuryAPI paper] on Secure Client-Side-Only Multiplayer Gaming API.
+  * [https://docs.google.com/presentation/d/1VMcbNPNWAWJmJmvRZ31kwtCOGG8Qhaq7_A_dxW7rRa0/edit#slide=id.g2a609a980_010 Slides] and [https://drive.google.com/file/d/0B_LEQb_5Yz6ROTNtRjI4Z3Y0VGp5OGtSTy1ISWlSTmh0UGdV/edit?usp=sharing paper] on Jury API: Secure Client-Side-Only Multiplayer Gaming API.
 
 Talk about the [https://docs.google.com/document/d/15U_p6d901fov1rxNCyuZmOVF9NavASEuGIMf5AIGHTU/edit# platform assignment] and [https://docs.google.com/document/d/1MYGYmeYy15tK_UjnSlogord7t92LV0HiAnUgf49oRXo/edit API doc].
 
