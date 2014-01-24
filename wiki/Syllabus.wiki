@@ -58,10 +58,8 @@ Eclipse IDE for Java developers (GWT, AppEngine)
     * Unit tests for the game
   # Internet 101 & GWT: browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON, GWT (intro). GWT vs Closure.
     * Implementation of game logic, bugs hunting using unit tests.
-  # GWT continued (UI, RPC, UiBinder, MVP)
+  # GWT (UI, RPC, UiBinder, MVP + mockito)
     * Graphics for your game (MVP + unit tests for Presenters)
-  # Advanced GWT and testing: Mockito, selenium, Guice, GIN, history API
-    * GWTTestCase, selenium test, use dependency injection, history
   # AppEngine: Channel API, datastore, objectify
   # [http://angularjs.org/ AngularJS]
   # HTML5: CSS animations, drag-n-drop, sounds, manifest for offline playing, flexible-box-model
@@ -70,6 +68,8 @@ Eclipse IDE for Java developers (GWT, AppEngine)
     * I18n the game, make the game secure (server-side validation), ranking
   # Artificial Intelligence (AI) for games. Heuristics, `A*` search, alpha-beta pruning, etc. 
     * AI for your game.
+  # Advanced GWT and testing: Mockito, selenium, Guice, GIN, history API
+    * GWTTestCase, selenium test, use dependency injection, history
   # Mobile site & mgwt
   # phonegap & gwt-phonegap
     
