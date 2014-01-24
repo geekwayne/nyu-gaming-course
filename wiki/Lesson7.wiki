@@ -1,3 +1,0 @@
-#summary AppEngine datastore, objectify
-
-= Lesson plan =
