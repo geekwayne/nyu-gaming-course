@@ -11,8 +11,7 @@
   * [Lesson3 Lesson]: GWT UiBinder, MVP and Mockito
   * [HW3]: GWT Graphics.
   * [AngularJS Lesson]: AngularJS
-  * [Lesson6 Lesson]: AppEngine, Channel API
-  * [Lesson7 Lesson]: AppEngine datastore, objectify
+  * [Lesson6 Lesson]: AppEngine
   * [Lesson5 Lesson]: HTML5
   * [HW5 HW]: Animations, drag-n-drop, sounds
   * [Lesson8 Lesson]: I18n, ranking and security
