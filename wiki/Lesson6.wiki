@@ -1,12 +1,14 @@
 #summary AppEngine, Ajax, Channel API (Long polling, WebSockets)
 
 = Lesson plan =
-  * 30 min: [http://www.google.com/events/io/2009/sessions/AppEngineNowJava.html Intro to AppEngine - PaaS (Platform-as-a-Service)]
+  * 15 min: [http://www.google.com/events/io/2009/sessions/AppEngineNowJava.html Intro to AppEngine - PaaS (Platform-as-a-Service)]
   * [https://developers.google.com/events/io/2012/sessions/gooio2012/301/ App Engine Overview]
   * [http://www.google.com/events/io/2011/sessions/highly-productive-gwt-rapid-development-with-app-engine-objectify-requestfactory-and-gwt-platform.html GWT+AppEngine]
   * [http://www.google.com/events/io/2009/sessions/FromSparkPlugToDriveTrain.html AppEngine under-the-hood]
-  * 30 min: [http://www.google.com/events/io/2010/sessions/building-real-time-apps-app-engine-feed-api.html Channel API (slides 6-46)], [http://www.google.com/events/io/2010/sessions/whats-hot-in-java-for-app-engine.html Channel API (slides 7-15)]
+  * 15 min: [http://www.google.com/events/io/2010/sessions/building-real-time-apps-app-engine-feed-api.html Channel API (slides 6-46)], [http://www.google.com/events/io/2010/sessions/whats-hot-in-java-for-app-engine.html Channel API (slides 7-15)]
 
+  * 30 min: AppEngine datastore: [http://www.google.com/events/io/2009/sessions/SofterSideofSchemas.html AppEngine persistence], [https://code.google.com/p/objectify-appengine/wiki/Entities#Serializing objectify code examples].
+  * [https://developers.google.com/events/io/2012/sessions/gooio2012/306/ SQL vs NoSQL]
 
 == Long polling ==
 It uses two HTTP connections to the server. When the client has data to send to the server, it initiates an HTTP connection and posts the data to the server. The client also maintains a long-lived HTTP connection to the server that the server uses to return data back to the client. We refer to the first type of connection as the send channel and the second type of connection as the receive channel. Together these two unidirectional channels provide a bidirectional channel of communication between the browser and the server.
