@@ -17,7 +17,7 @@ Previous courses (the course material will be more or less the same):
   # Fall 2013 and Spring 2013 use this site.
 
 The course will teach how to develop online casual multiplayer games
-for web and mobile, using open technologies such as [http://code.google.com/webtoolkit/ GWT], [AppEngine], DHTML, JSON, AJAX, long-polling, HTML5, PhoneGap, etc.
+for web and mobile, using open technologies such as [http://code.google.com/webtoolkit/ GWT], [http://angularjs.org/ AngularJS], [http://code.google.com/appengine/ AppEngine], DHTML, JSON, AJAX, long-polling, HTML5, PhoneGap, etc.
 
 [Grading]:
 The course has two big projects (broken into multiple HWs): 
@@ -38,13 +38,14 @@ Eclipse IDE for Java developers (GWT, AppEngine)
   * GWT
   * App engine - use Channel API, Objectify, email
   * Git
+  * [http://angularjs.org/ AngularJS]
   * HTML5 (Canvas, WebSockets)
   * Ajax, long-polling, REST
   * Abuse-report systems
   * AI for games
   * ranking systems
   * FB apps (OAuth2, graph API)
-  * PhoneGap, MGWT
+  * PhoneGap, MGWT, [http://ionicframework.com/ Ionic framework]
 
 ===Recommended books===
   * [http://www.amazon.com/Google-Engine-Java-Application-Development/dp/1849690448/ref=sr_1_7?s=books&ie=UTF8&qid=1325861681&sr=1-7 Google App Engine Java and GWT Application Development], you can download the book's code examples [http://www.packtpub.com/code_download/6295 here]
@@ -61,10 +62,10 @@ Eclipse IDE for Java developers (GWT, AppEngine)
     * Graphics for your game (MVP + unit tests for Presenters)
   # Advanced GWT and testing: Mockito, selenium, Guice, GIN, history API
     * GWTTestCase, selenium test, use dependency injection, history
+  # AppEngine: Channel API, datastore, objectify
+  # [http://angularjs.org/ AngularJS]
   # HTML5: CSS animations, drag-n-drop, sounds, manifest for offline playing, flexible-box-model
     * Advanced graphics
-  # AppEngine, Polling, long-polling, ajax, Channel API
-  # AppEngine datastore, objectify
   # Security: I18n, Accessibility, web security, safe HTML, XSRF. Ranking: ELO, TrueSkill, simulations, convergence, ranking levels.
     * I18n the game, make the game secure (server-side validation), ranking
   # Artificial Intelligence (AI) for games. Heuristics, `A*` search, alpha-beta pruning, etc. 
