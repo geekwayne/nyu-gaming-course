@@ -1,7 +1,7 @@
 #summary HW1.
 
 = HW1 =
-For deadline and submission instructions see [https://code.google.com/p/nyu-gaming-course-2013/wiki/Grading Grading].
+For deadline and submission instructions see [Grading].
 
 *Important: you have two weeks to do HW1*
 
