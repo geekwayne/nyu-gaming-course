@@ -7,7 +7,7 @@ For deadline and submission instructions see [Grading].
 
 
 Administration stuff to do:
-  * Add your name & NYU & Google id, and your game name and github URL to our  [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=3 spreadsheet]. Choose a game that no other students chose and a game that wasn't done in previous courses (see the list of suggested games in the spreadsheet).
+  * Add your name & NYU & Google id, and your game name and github URL to our  [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=3 spreadsheet]. Choose a game that no other students chose and or two games that were done in previous courses (see the list of [https://docs.google.com/document/d/1KDDRvWEyaWoVxSSmrlA8Lf2r9knTkuA4cX8aTTplirQ/edit# suggested games]).
   * Mailing list: register to [https://groups.google.com/forum/?fromgroups#!forum/nyu-gaming-course-winter-2014 our Google group]. If you have any problems or questions, send an email to our group: `nyu-gaming-course-winter-2014@googlegroups.com`
   * Go over all the wiki pages.
   * Install [http://www.oracle.com/technetwork/java/javase/downloads/jdk7u9-downloads-1859576.html Java JDK SE 7 Java]
