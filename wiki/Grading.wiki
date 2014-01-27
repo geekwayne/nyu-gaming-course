@@ -8,7 +8,12 @@ We will use the spreadsheet to track what everyone are working on.
 
 =Game HWs=
 The game HW deadline is always the same: any time before our lecture starts.
-The *deadline is strict* - any submission after the deadline will not be graded.
+The *deadline is strict* - any submission after the deadline will be penalized as follows:
+  * 1-day late: 0.5 grade (A to A-, A- to B+, etc)
+  * 2-day late: 1 grade (A to B, B to C, etc)
+  * 3-day late: 1.5 grades
+  * 4-day late: 2 grades
+  * 5-day late: won't be graded.
 
 The grader will go over your committed code, review it and give you feedback and your grade for that HW.
 
