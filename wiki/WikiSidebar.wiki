@@ -1,7 +1,7 @@
 #summary Table of content - Side-Wiki navigation.
 
-  * [Grading]
   * [Syllabus]
+  * [Grading]
   * [Eclipse]
   * [Lesson1 Lesson]: Overview, JUnit
   * [Lesson_JuryApi Lesson]: JuryAPI
