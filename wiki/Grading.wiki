@@ -4,7 +4,7 @@ There will be 8-12 game homeworks (HWs) of equal weight (50% of the final grade)
 Each HW will be submitted into the github project using a *single commit* (to make grading easier).
 
 Add your email and name to our [https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=3 spreadsheet].
-We will use the spreadsheet to track what everyone are working on.
+We will use the spreadsheet to track what everyone is working on.
 
 =Game HWs=
 The game HW deadline is always the same: any time before our lecture starts.
