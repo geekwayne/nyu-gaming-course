@@ -56,7 +56,7 @@ Eclipse IDE for Java developers (GWT, AppEngine)
   # Course overview, and junit. 
   # Jury API: the difference between the game and platform. Working with Git and Github
     * Unit tests for the game
-  # Internet 101 & GWT: browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON, GWT (intro). GWT vs Closure.
+  # Internet 101 & GWT: browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON, GWT (intro). GWT vs Closure/Angular.
     * Implementation of game logic, bugs hunting using unit tests.
   # GWT (UI, RPC, UiBinder, MVP + mockito)
     * Graphics for your game (MVP + unit tests for Presenters)
