@@ -1,4 +1,6 @@
 #summary HW2
 
+*Due date: beginning of lesson 4*
+
 Implement the logic for your game.
 For example, [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw2/StateChangerImpl.java state changer for chess].
