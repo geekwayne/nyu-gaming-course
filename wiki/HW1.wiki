@@ -3,7 +3,7 @@
 = HW1 =
 For deadline and submission instructions see [Grading].
 
-*Important: you have two weeks to do HW1*
+*Due date: beginning of lesson 3 (you have two weeks to do HW1)*
 
 
 Administration stuff to do:
