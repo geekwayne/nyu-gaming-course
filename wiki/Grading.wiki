@@ -17,16 +17,14 @@ The *deadline is strict* - any submission after the deadline will be penalized a
 
 The grader will go over your committed code, review it and give you feedback and your grade for that HW.
 
+You may copy code from anywhere on the internet as long it is clearly marked with a URL pointing to the source.
  
 =Platform HWs=
 We will all work together on building a gaming platform ([https://github.com/yoav-zibin/multiplayer-gaming-platform/ GitHub multiplayer gaming platform project]).
+The platform has several *components* (emulator, game container, server, documentation, developer console, etc).
+Each component will have some students working on it, and one of them will be the *owner*. The owner's job is to review all changes to the component, test changes, and make sure the component is consistent and functional. The owners will also describe and rank what contributions each student made to their component.
 
-Each student will own a *feature*, write a design doc for it, implement it, test it, and launch it. 
-See examples and deadlines in the [https://docs.google.com/document/d/15U_p6d901fov1rxNCyuZmOVF9NavASEuGIMf5AIGHTU/edit platform assignments doc].
+Some student will own a *cross-component feature*, write a design doc for it, and make changes to all affected components. 
+Some students will have additional roles, such as release engineer.
 
-Some students will have additional roles (and they will own smaller features), such as release engineer and component owner.
-
-The feature will usually require changes in several *components* (emulator, game container, server, documentation, developer console, etc).
-Each *component* will have an owner whose job is to *review* all changes to it, test changes, and make sure the component is consistent and functional. The owners will also describe and rank what contributions each student made to their component.
-
-You may copy code from anywhere on the internet as long it is clearly marked with a URL pointing to the source.
+For more info see [https://docs.google.com/document/d/15U_p6d901fov1rxNCyuZmOVF9NavASEuGIMf5AIGHTU/edit platform assignments doc].
