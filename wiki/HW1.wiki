@@ -27,3 +27,7 @@ Write you `State` class that describes the state of your game, e.g.,
 Make sure that your state is deterministic, i.e., if your game depends on 
 random events such as shuffling a deck of cards or rolling a dice, then 
 your state should receive them as a move (your state must not have a random dice or a shuffle method!).
+
+==Game API HW==
+Add 1-2 slides for your game [https://docs.google.com/presentation/d/1Q8fVk-3urSTiGYbqPpkQ8SK5bKBYCpU2NLsJPWBa2n8/edit#slide=id.g2a8d707f7_10 here].
+This slides should describe how your game will use Game API and how your game state is represented.
