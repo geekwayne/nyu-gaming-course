@@ -12,11 +12,10 @@ git clone https://github.com/yoav-zibin/multiplayer-gaming-platform.git
   # Install eclipse plugin [http://eclipse-cs.sourceforge.net/downloads.html CheckStyle], download [https://gaming-platform.googlecode.com/svn/trunk/eclipse/gaming-platform/documents/CheckStyleConfigurationForGamingPlatform.xml CheckStyleConfigurationForGamingPlatform.xml], and in `Preferences->CheckStyle->New...` choose `External Configuration File` and enter for `Name:` the name `CheckStyleConfigurationForGamingPlatform`, and browse to the file you just downloaded, and set the configuration as the default.
 
 
-<h3>Test CheckStyle was installed correctly</h3>
+<h3>Test Check-Style was installed correctly</h3>
 Try to do some style violations and see that they are reported correctly:
   # `static public int i=3;`
   # `int[] a={1,2,3};`
-  # `import java.util.List;`
   # Try this:
 {{{
 int[] b = {
