@@ -32,7 +32,7 @@ And your test should have unit tests for it, e.g.,
   public void testLegalMoveXXX() {
     VerifyMove verifyMove = new VerifyMove(...); // The move we're testing is legal
     VerifyMoveDone verifyDone = new YourGameLogic().verify(verifyMove);
-    assertEquals(new VerifyMoveDone(), verifyDone);
+    assertEquals(0, verifyDone.getHackerPlayerId());
   }
 
   @Test
