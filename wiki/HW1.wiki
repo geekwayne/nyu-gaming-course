@@ -13,22 +13,32 @@ Administration stuff to do:
   * Install [http://www.oracle.com/technetwork/java/javase/downloads/jdk7u9-downloads-1859576.html Java JDK SE 7 Java]
   * Install and configure [Eclipse]
 
+After choosing your game (and verifying with me that it wasn't done before), do the following:
+  * Add 2 slides for your game [https://docs.google.com/presentation/d/1Q8fVk-3urSTiGYbqPpkQ8SK5bKBYCpU2NLsJPWBa2n8/edit#slide=id.g2a8d707f7_10 here]. These slides should describe how your game will use Game API and how your game state is represented. See the examples in the beginning for TicTacToe and [http://en.wikipedia.org/wiki/Cheat_(game) Cheat].
+  * Copy [https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/src/org/cheat/client/GameApi.java GameApi.java] to your github project. This file contains all the Game API messages.
+  * Create an empty `Logic` class for your game which has a single method for verifying a move, e.g., see [https://github.com/yoav-zibin/cheat-game/blob/ae9e2aa9fc99ab4656cad2e49efe223c3f631ab3/eclipse/src/org/cheat/client/CheatLogic.java CheatLogic.java]
+  * Write a test with *20-30* unit tests for your game logic. Tests both legal and illegal moves (for every legal move you should have 2-3 illegal moves). Your tests should fail now, because your logic class is empty now. After HW2, all the tests should pass (unless you have bugs in your tests or implementation). E.g., see [https://github.com/yoav-zibin/cheat-game/blob/ae9e2aa9fc99ab4656cad2e49efe223c3f631ab3/eclipse/tests/org/cheat/client/CheatLogicTest.java CheatLogicTest.java]
 
-Write the `State` class of your game, but do not implement the logic of the `makeMove` method. Also write *20-30* unit tests for your game logic.
+To summarize, your logic class should have a single method:
+{{{
+  public VerifyMoveDone verify(VerifyMove verifyMove) {
+    // TODO: I will implement this method in HW2
+    return new VerifyMoveDone();
+  }
+}}} 
+And your test should have unit tests for it, e.g., 
+{{{
+  @Test
+  public void testLegalMoveXXX() {
+    VerifyMove verifyMove = new VerifyMove(...); // The move we're testing is legal
+    VerifyMoveDone verifyDone = new YourGameLogic().verify(verifyMove);
+    assertEquals(new VerifyMoveDone(), verifyDone);
+  }
 
-All your tests should fail now, because your implementation is just a stub.
-After HW2, all the tests should pass (unless you have bugs in your tests or implementation).
-
-Write you `State` class that describes the state of your game, e.g.,
-  * In connect four, the state of the game, as described in this [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/shared/games/connect5/State.java State] class, includes: an array representing the `board`, who has the current turn, etc. Here are [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/test/org/gaming/shared/games/connect5/StateTest.java tests] for the state of connect four/five.
-  * Reversi example has better tests: [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/test/org/gaming/shared/games/reversi/StateTest.java StateTest.java]
-  * In the *card game* called [http://en.wikipedia.org/wiki/Cheat_(game) Cheat], the [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/shared/games/cheat/State.java State class] includes the cards each player has, the remaining cards in the middle, and the last claim (the card facing up). If you have a card game, I suggest copying card-related classes such as [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/shared/cards/Card.java Card], [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/shared/cards/Rank.java Rank], and [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/shared/cards/Suit.java Suit]. Here are some [https://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/test/org/gaming/shared/games/cheat/StateTest.java example tests] for the Cheat game.
-  * For the chess game, this is [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/shared/chess/State.java the State] of the game. Here are [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/test/org/jiangfengchen/hw1/AbstractStateChangerCaptureForBlack.java tests for legal chess capturing moves] and [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/test/org/jiangfengchen/hw1/AbstractStateChangerIllegalBlackCapture.java tests for illegal moves].
-
-Make sure that your state is deterministic, i.e., if your game depends on 
-random events such as shuffling a deck of cards or rolling a dice, then 
-your state should receive them as a move (your state must not have a random dice or a shuffle method!).
-
-==Game API HW==
-Add 1-2 slides for your game [https://docs.google.com/presentation/d/1Q8fVk-3urSTiGYbqPpkQ8SK5bKBYCpU2NLsJPWBa2n8/edit#slide=id.g2a8d707f7_10 here].
-This slides should describe how your game will use Game API and how your game state is represented.
+  @Test
+  public void testIllegalMoveYYY() {
+    VerifyMove verifyMove = new VerifyMove(...); // The move we're testing is ILLEGAL!
+    VerifyMoveDone verifyDone = new YourGameLogic().verify(verifyMove);
+    assertEquals(verifyMove.getLastMovePlayerId(), verifyDone.getHackerPlayerId());
+  }
+}}}
