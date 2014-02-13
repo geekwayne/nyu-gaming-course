@@ -1,6 +1,6 @@
 #summary HW2
 
-*Due date: beginning of lesson 4*
+*Due date: two days after lesson 4*
 
 Implement the logic for your game. Now all the tests from HW1 should pass.
 
