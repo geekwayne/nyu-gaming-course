@@ -2,5 +2,6 @@
 
 *Due date: beginning of lesson 4*
 
-Implement the logic for your game.
-For example, [https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/src/org/simongellis/hw2/StateChangerImpl.java state changer for chess].
+Implement the logic for your game. Now all the tests from HW1 should pass.
+
+For example, [https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/src/org/cheat/client/CheatLogic.java CheatLogic.java].
