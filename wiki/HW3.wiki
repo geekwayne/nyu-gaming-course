@@ -4,7 +4,7 @@ In HW2 you handled `VerifyMove` message and made sure the move was legal.
 In HW3 you will handle `UpdateUI` to update your graphics using the MVP pattern, but only write the presenter (in HW4 you will write the view).
 
 Specifically, write a `YourGamePresenter` that will handle `UpdateUI` and control a view interface. (HW4 will do the view implementation.)
-
+Also write a `YourGamePresenterTest` that will cover interesting states in your game. You will need to download [https://code.google.com/p/mockito/downloads/list Mockito] and use mocks for the view and container.
 
 
 Example of how mockito was used last semester to test the Presenter class:
@@ -34,5 +34,3 @@ The relevant code:
                 verify(view).setGameResult(whiteCheckmate);
         }
 }}}
-
-
