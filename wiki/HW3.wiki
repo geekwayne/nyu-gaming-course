@@ -6,31 +6,29 @@ In HW3 you will handle `UpdateUI` to update your graphics using the MVP pattern,
 Specifically, write a `YourGamePresenter` that will handle `UpdateUI` and control a view interface. (HW4 will do the view implementation.)
 Also write a `YourGamePresenterTest` that will cover interesting states in your game. You will need to download [https://code.google.com/p/mockito/downloads/list Mockito] and use mocks for the view and container.
 
+See [https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/src/org/cheat/client/CheatPresenter.java CheatPresenter.java] and [https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/tests/org/cheat/client/CheatPresenterTest.java CheatPresenterTest.java]
 
-Example of how mockito was used last semester to test the Presenter class:
-[https://code.google.com/p/nyu-gaming-course-2013/source/browse/trunk/eclipse/test/org/simongellis/hw3/PresenterTest.java?spec=svn529&r=529 PresenterTest with Mockito]
-The relevant code:
+Example of how to use mockito:
 {{{
-        @Before
-        public void setup() {
-                presenter = new Presenter();
-                view = Mockito.mock(Presenter.View.class);
-                ...
-                HasClickHandlers dummyResetButton = Mockito.mock(HasClickHandlers.class);
-                when(view.getResetButton()).thenReturn(dummyResetButton);
-                presenter.setView(view);
-        }
+  @Before
+  public void runBefore() {
+    mockView = Mockito.mock(View.class);
+    mockContainer = Mockito.mock(Container.class);
+    yourGamePresenter= new YourGamePresenter(mockView, mockContainer);
+    verify(mockView).setPresenter(yourGamePresenter);
+  }
 
-        @Test
-        public void testCheckmateDisplayed() {
-                GameResult whiteCheckmate = new GameResult(Color.WHITE, GameResultReason.CHECKMATE);
-                ...
-                State state = new State(
-                                Color.BLACK,
-                                board,
-                                ...
-                                whiteCheckmate);
-                presenter.setState(state);
-                verify(view).setGameResult(whiteCheckmate);
-        }
+  @After
+  public void runAfter() {
+    verifyNoMoreInteractions(mockContainer);
+    verifyNoMoreInteractions(mockView);
+  }
+
+  @Test
+  public void testEmptyStateForW() {
+    // Call methods on your presenter
+    yourGamePresenter...
+    verify(mockContainer).sendMakeMove(...);
+    verify(mockView)....;
+  }
 }}}
