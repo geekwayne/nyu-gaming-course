@@ -7,7 +7,7 @@ Browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&P
   * 20 min: Demo: [http://upload.wikimedia.org/wikipedia/commons/c/c6/Http_request_telnet_ubuntu.png telnet], Network panel (chrome's console or Firebug), javascript panel.
   * 15 min: [https://docs.google.com/presentation/d/1IWkWScq7YSnupzUDN0N_2leTGlr34Q5xH_7kfHQw93A/edit REST]
   * [https://code.google.com/p/mockito/ mockito] (with examples)
-  * [http://dl.google.com/io/2009/pres/Th_0200_GoogleWebToolkitArchitecture-BestPracticesForArchitectingYourGWTApp.pdf MVP pattern] (pages 49-58).
+  * [http://dl.google.com/io/2009/pres/Th_0200_GoogleWebToolkitArchitecture-BestPracticesForArchitectingYourGWTApp.pdf MVP pattern] (pages 53-58).
 
 
 
