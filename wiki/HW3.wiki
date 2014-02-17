@@ -26,8 +26,9 @@ Example of how to use mockito:
 
   @Test
   public void testEmptyStateForW() {
-    // Call methods on your presenter
+    // Call methods on your presenter.
     yourGamePresenter...
+    // Verify the correct methods were called on your mocks.
     verify(mockContainer).sendMakeMove(...);
     verify(mockView)....;
   }
