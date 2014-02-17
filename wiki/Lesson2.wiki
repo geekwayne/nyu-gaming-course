@@ -1,6 +1,6 @@
-#summary Internet 101 & GWT
+#summary Internet 101 & MVP
 
-Browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON, GWT (intro).
+Browsers and incompatibilities, javascript, DHTML, communication: cookies, GET&POST, REST, JSON.
 
 = Lesson plan =
   * 5 min: [https://docs.google.com/present/edit?id=0AfLEQb_5Yz6RZGdwYzM0aDZfOWcyN3R6a2N4 HTTP]
@@ -41,16 +41,6 @@ GET / HTTP/1.1
 GET / HTTP/1.1
 }}}
 
-= Recommended videos on GWT =
-*Google IO* has a lot of GWT (and AppEngine) videos and tutorials:
-  * see these videos: [https://developers.google.com/events/io/sessions/gooio2012/218/ The History and Future of GWT (the first 30 minutes)] and [http://www.youtube.com/watch?v=T0X9BcBd-I0 Overview of GWT].
-  * [http://www.google.com/events/io/2009/sessions/GoogleWebToolkitBestPractices.html GWT Best practices].
-  * [http://www.google.com/events/io/2009/sessions.html#gwt GWT 2009]
-  * [http://www.google.com/events/io/2009/sessions.html#appengine AppEngine 2009]
-  * [http://www.google.com/events/io/2010/sessions.html#GWT GWT 2010 videos], [http://www.google.com/events/io/2010/sessions/gwt-ui-overhaul.html UiBinder]
-  * [http://www.google.com/events/io/2010/sessions.html#App%20Engine AppEngine 2010]
-  * [http://www.google.com/events/io/2011/sessions.html#developer-tools-track GWT 2011]
-  * [http://www.google.com/events/io/2011/sessions.html#app-engine-track AppEngine 2011]
 
 = Summary =
 You should know the following:
@@ -61,4 +51,3 @@ You should know the following:
   * [http://en.wikipedia.org/wiki/Ajax_(programming) AJAX] and [http://en.wikipedia.org/wiki/JSON JSON]
   * [http://en.wikipedia.org/wiki/Minification_(programming) Minified] and [http://en.wikipedia.org/wiki/Obfuscated_code Obfuscated] code; [http://code.google.com/webtoolkit/doc/1.6/FAQ_DebuggingAndCompiling.html#Why_is_my_GWT-generated_JavaScript_gibberish? GWT obfuscate code]
   * [http://en.wikipedia.org/wiki/Cross-browser Browsers incompatibilities (HTML, CSS, javascript, DOM)]
-  * [http://en.wikipedia.org/wiki/Google_Web_Toolkit What is GWT]
