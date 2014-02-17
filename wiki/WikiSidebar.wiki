@@ -6,10 +6,12 @@
   * [Lesson1 Lesson]: Overview, JUnit
   * [Lesson_JuryApi Lesson]: JuryAPI
   * [HW1]: Write unit tests for game logic
-  * [Lesson2 Lesson]: Internet and GWT intro
+  * Lesson: showed cheat logic and tests.
   * [HW2]: Implementation of game logic
-  * [Lesson3 Lesson]: GWT UiBinder, MVP and Mockito
-  * [HW3]: GWT Graphics.
+  * [Lesson2 Lesson]: Internet intro, MVP and Mockito
+  * [HW3]: Presenter for your game.
+  * [Lesson3 Lesson]: GWT UI and RPC
+  * [HW4]: GWT Graphics.
   * [Lesson6 Lesson]: AppEngine
   * [AngularJS Lesson]: AngularJS
   * [Lesson5 Lesson]: HTML5
