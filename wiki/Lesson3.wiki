@@ -1,7 +1,5 @@
 #summary GWT (UI, RPC, MVP + Mockito)
 
 = Lesson plan =
-GWT continued (UI, RPC)
-  * 20 min: Presentation and review of HW2.
-  * MVP + [https://code.google.com/p/mockito/ mockito] (with examples)
-  * 30 min: [http://dl.google.com/io/2009/pres/Th_0200_GoogleWebToolkitArchitecture-BestPracticesForArchitectingYourGWTApp.pdf RPC and MVP pattern], see [http://www.google.com/events/io/2009/sessions/GoogleWebToolkitBestPractices.html this talk].
+  * Starting with eclipse and GWT, explain all the generated files.
+  * GWT (UI, RPC) 
