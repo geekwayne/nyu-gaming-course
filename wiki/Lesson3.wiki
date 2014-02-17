@@ -3,3 +3,16 @@
 = Lesson plan =
   * Starting with eclipse and GWT, explain all the generated files.
   * GWT (UI, RPC) 
+  * [http://en.wikipedia.org/wiki/Google_Web_Toolkit What is GWT]
+
+
+= Recommended videos on GWT =
+*Google IO* has a lot of GWT (and AppEngine) videos and tutorials:
+  * see these videos: [https://developers.google.com/events/io/sessions/gooio2012/218/ The History and Future of GWT (the first 30 minutes)] and [http://www.youtube.com/watch?v=T0X9BcBd-I0 Overview of GWT].
+  * [http://www.google.com/events/io/2009/sessions/GoogleWebToolkitBestPractices.html GWT Best practices].
+  * [http://www.google.com/events/io/2009/sessions.html#gwt GWT 2009]
+  * [http://www.google.com/events/io/2009/sessions.html#appengine AppEngine 2009]
+  * [http://www.google.com/events/io/2010/sessions.html#GWT GWT 2010 videos], [http://www.google.com/events/io/2010/sessions/gwt-ui-overhaul.html UiBinder]
+  * [http://www.google.com/events/io/2010/sessions.html#App%20Engine AppEngine 2010]
+  * [http://www.google.com/events/io/2011/sessions.html#developer-tools-track GWT 2011]
+  * [http://www.google.com/events/io/2011/sessions.html#app-engine-track AppEngine 2011]
