@@ -56,7 +56,7 @@ You should know the following:
   * [http://en.wikipedia.org/wiki/Html HTML]
   * [http://en.wikipedia.org/wiki/REST REST]: GET, POST, PUT, DELETE
   * http://en.wikipedia.org/wiki/JavaScript Javascript] and [http://en.wikipedia.org/wiki/DHTML DHTML]
-  * http://en.wikipedia.org/wiki/Ajax_(programming) AJAX] and http://en.wikipedia.org/wiki/JSON JSON]
+  * [http://en.wikipedia.org/wiki/Ajax_(programming) AJAX] and http://en.wikipedia.org/wiki/JSON JSON]
   * [http://en.wikipedia.org/wiki/Minification_(programming) Minified] and [http://en.wikipedia.org/wiki/Obfuscated_code Obfuscated] code; [http://code.google.com/webtoolkit/doc/1.6/FAQ_DebuggingAndCompiling.html#Why_is_my_GWT-generated_JavaScript_gibberish? GWT obfuscate code]
   * [http://en.wikipedia.org/wiki/Cross-browser Browsers incompatibilities (HTML, CSS, javascript, DOM)]
   * [http://en.wikipedia.org/wiki/Google_Web_Toolkit What is GWT]
