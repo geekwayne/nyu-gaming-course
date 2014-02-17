@@ -1,3 +1,3 @@
 #summary HW4
 
-Create a GWTTestCase or [https://github.com/google/gwtmockito GWT Mockito test case], selenium test, use dependency injection (dagger or guice/GIN).
+Create GWT Graphics for your game.
