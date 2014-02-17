@@ -8,7 +8,7 @@
   * [HW1]: Write unit tests for game logic
   * Lesson: showed cheat logic and tests.
   * [HW2]: Implementation of game logic
-  * [Lesson2 Lesson]: Internet intro, MVP and Mockito
+  * [Lesson2 Lesson]: Internet intro, MVP and Mockito (examples from Cheat)
   * [HW3]: Presenter for your game.
   * [Lesson3 Lesson]: GWT UI and RPC
   * [HW4]: GWT Graphics.
