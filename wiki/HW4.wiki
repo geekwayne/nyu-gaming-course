@@ -1,3 +1,6 @@
 #summary HW4
 
-Create GWT Graphics for your game.
+Create GWT Graphics for your game: create `YourGameGraphics` that will implement `YourGamePresenter.View`.
+For example, see [https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/src/org/cheat/graphics/CheatGraphics.java CheatGraphics.java].
+
+Use `UiBinder`, i.e., create both `YourGameGraphics.java` and `YourGameGraphics.ui.xml`.
