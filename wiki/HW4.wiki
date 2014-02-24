@@ -6,4 +6,4 @@ For example, see [https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/s
 Use `UiBinder`, i.e., create both `YourGameGraphics.java` and `YourGameGraphics.ui.xml`.
 
 Use `GameApi.IteratingPlayerContainer` to test your graphics (because the emulator is not built yet :))
-Upload your game to AppEngine, and give a link to the game in the commit message, e.g., `HW4: Graphics for cheat game, url: http://cheat-game.appspot.com/CheatGame.html`
+Upload your game to AppEngine (e.g., [http://cheat-game.appspot.com/CheatGame.html CheatGame.html]), and give a link to the game in the commit message, e.g., `HW4: Graphics for cheat game, url: http://cheat-game.appspot.com/CheatGame.html`
