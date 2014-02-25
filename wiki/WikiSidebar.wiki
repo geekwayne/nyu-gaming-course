@@ -22,7 +22,6 @@
   * [HW9 HW]: AI
   * [Lesson13 Lesson]: FB and OAuth2
   * [Lesson4 Lesson]: Selenium and GIN
-  * [HW4 HW]: GWT and selenium tests
   * [Lesson10 Lesson]: Mobile site & mgwt
   * [Lesson11 Lesson]: PhoneGap
   * Previously taught
