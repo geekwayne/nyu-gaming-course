@@ -10,7 +10,7 @@
   * [HW2]: Implementation of game logic
   * [Lesson2 Lesson]: Internet intro, MVP and Mockito (examples from Cheat)
   * [HW3]: Presenter for your game.
-  * [Lesson3 Lesson]: GWT UI and RPC
+  * [Lesson3 Lesson]: GWT UI and UiBinder
   * [HW4]: GWT Graphics.
   * [Lesson6 Lesson]: AppEngine
   * [AngularJS Lesson]: AngularJS
