@@ -12,4 +12,4 @@ The UI teams will need to update/comment on the design doc of the Server team wi
 
 The design docs should be finished by Saturday 5pm.
 
-All teams should then write 3 pages for testing V1-V3 of the Server component. You can use any javascript testing framework you want, or GWT, or none at all.
+All teams should then write 3 pages for testing V1-V3 of the Server component: each page should contain 10-20 [https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest XMLHttpRequest] calls to the correct version of the server (e.g., `2.appname.appspot.com`) and check the result is as expected. You can use any javascript testing framework you want, or GWT, or none at all.
