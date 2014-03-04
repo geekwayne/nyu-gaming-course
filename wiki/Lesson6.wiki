@@ -5,7 +5,7 @@
   * [http://www.google.com/events/io/2011/sessions/highly-productive-gwt-rapid-development-with-app-engine-objectify-requestfactory-and-gwt-platform.html GWT+AppEngine]
   * [https://developers.google.com/appengine/docs/java/channel/#Java_Example_Tic_Tac_Toe_application Channel API TicTacToe Example]
 
-  * 30 min: AppEngine datastore: [http://www.google.com/events/io/2009/sessions/SofterSideofSchemas.html AppEngine persistence], [https://code.google.com/p/objectify-appengine/wiki/Entities#Serializing objectify code examples].
+  * 30 min: AppEngine datastore: [https://code.google.com/p/objectify-appengine/wiki/Entities#Serializing objectify code examples].
   * [https://developers.google.com/events/io/2012/sessions/gooio2012/306/ SQL vs NoSQL]
 
 == Long polling ==
