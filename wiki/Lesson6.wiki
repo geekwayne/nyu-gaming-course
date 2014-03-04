@@ -3,7 +3,7 @@
 = Lesson plan =
   * [https://developers.google.com/events/io/2012/sessions/gooio2012/301/ App Engine Overview]
   * [http://www.google.com/events/io/2011/sessions/highly-productive-gwt-rapid-development-with-app-engine-objectify-requestfactory-and-gwt-platform.html GWT+AppEngine]
-  * 15 min: [http://www.google.com/events/io/2010/sessions/building-real-time-apps-app-engine-feed-api.html Channel API (slides 6-46)], [http://www.google.com/events/io/2010/sessions/whats-hot-in-java-for-app-engine.html Channel API (slides 7-15)]
+  * [https://developers.google.com/appengine/docs/java/channel/#Java_Example_Tic_Tac_Toe_application Channel API TicTacToe Example]
 
   * 30 min: AppEngine datastore: [http://www.google.com/events/io/2009/sessions/SofterSideofSchemas.html AppEngine persistence], [https://code.google.com/p/objectify-appengine/wiki/Entities#Serializing objectify code examples].
   * [https://developers.google.com/events/io/2012/sessions/gooio2012/306/ SQL vs NoSQL]
