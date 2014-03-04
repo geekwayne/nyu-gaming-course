@@ -10,7 +10,7 @@ Administration stuff to do:
   * Mailing list: register to [https://groups.google.com/forum/?fromgroups#!forum/nyu-gaming-course-winter-2014 our Google group]. If you have any problems or questions, send an email to our group: `nyu-gaming-course-winter-2014@googlegroups.com`
   * Go over all the wiki pages.
   * Install [http://www.oracle.com/technetwork/java/javase/downloads/jdk7u9-downloads-1859576.html Java JDK SE 7 Java]
-  * Install and configure [Eclipse]
+  * Install and configure [Eclipse], make sure you install gwt-2.6 or higher (to be able to use Java 7 features).
 
 After choosing your game (and verifying with me that it wasn't done before), do the following:
   * Add 2 slides for your game [https://docs.google.com/presentation/d/1Q8fVk-3urSTiGYbqPpkQ8SK5bKBYCpU2NLsJPWBa2n8/edit#slide=id.g2a8d707f7_10 here]. These slides should describe how your game will use Game API and how your game state is represented. See the examples in the beginning for TicTacToe and Cheat.
