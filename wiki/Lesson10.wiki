@@ -1,6 +1,8 @@
 #summary Mobile
 
 = Lesson plan =
+  * [http://ionicframework.com/docs/guide/preface.html Ionic mobile framework for AngularJS]
+
   * 30 min: [http://www.google.com/events/io/2011/sessions/using-gwt-and-eclipse-to-build-great-mobile-web-apps.html GWT Mobile Web Apps]
   * 30 mon: [http://www.google.com/events/io/2011/sessions/html5-versus-android-apps-or-web-for-mobile-development.html HTML5 versus Android: Apps or Web for Mobile Development?]
   * [https://code.google.com/p/mgwt/wiki/HTML5Manifest HTML5 manifest]
