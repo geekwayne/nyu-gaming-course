@@ -1,7 +1,8 @@
 #summary AppEngine, Ajax, Channel API (Long polling, WebSockets)
 
 = Lesson plan =
-  * [http://www.google.com/events/io/2011/sessions/highly-productive-gwt-rapid-development-with-app-engine-objectify-requestfactory-and-gwt-platform.html GWT+AppEngine]  * [https://developers.google.com/events/io/2012/sessions/gooio2012/306/ SQL vs NoSQL]
+  * [http://www.google.com/events/io/2011/sessions/highly-productive-gwt-rapid-development-with-app-engine-objectify-requestfactory-and-gwt-platform.html GWT+AppEngine]  
+  * [https://developers.google.com/events/io/2012/sessions/gooio2012/306/ SQL vs NoSQL]
   * [https://developers.google.com/appengine/docs/java/channel/#Java_Example_Tic_Tac_Toe_application Channel API TicTacToe Example]
   * AppEngine datastore: [https://code.google.com/p/objectify-appengine/wiki/Entities#Serializing objectify code examples].
 
