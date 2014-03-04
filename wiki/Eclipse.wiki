@@ -2,7 +2,7 @@
 
 ==Setup==
   # Download and install [http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/junosr2 Eclipse for Java developers]
-  # Install the eclipse plugin for [http://code.google.com/appengine/docs/java/tools/eclipse.html gwt+appengine] (make sure to select in SDKs: Google App Engine Java and Google Web Toolkit (GWT))
+  # Install the eclipse plugin for [http://code.google.com/appengine/docs/java/tools/eclipse.html gwt+appengine] (make sure to select in SDKs: Google App Engine Java and Google Web Toolkit (GWT), and choose at least gwt-2.6)
   # In `Preferences->General->Editors->Text Editors`, set `Display tab width` to `2`, check `Insert spaces for tabs`, and set `Print margin column` to `100`.
   # Install [http://www.eclipse.org/egit/ EGit] and clone our repository 
 {{{
