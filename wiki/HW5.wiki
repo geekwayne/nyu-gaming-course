@@ -1,5 +1,9 @@
 #summary HW5
 
+==Group HW== 
+Submit version 2.
+
+==Individual HW==
 Advanced graphics: animations for the moves, drag-n-drop the pieces, sounds (for the moves and for ending the game).
 
 If your can't support drag-n-drop in any reasonable way (e.g., a poker game), then just add drag-n-drop to two labels `drag me` and `drag onto me` and change the size/color of the labels on drag over and drop events.
