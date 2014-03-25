@@ -1,10 +1,10 @@
 #summary HTML5
 
 = Lesson plan =
-  * 30 min: Optimizations: [http://www.google.com/events/io/2009/sessions/StoryCompilerGwtCompiler.html code-splitting], [http://www.google.com/events/io/2011/sessions/high-performance-gwt-best-practices-for-writing-smaller-faster-apps.html best practices]
-  * 50 min: HTML5 & GWT: [http://www.google.com/events/io/2011/sessions/gwt-html5-a-web-developers-dream.html HTML5 2011] (less interesting [http://www.google.com/events/io/2010/sessions/gwt-html5.html HTML5 2010])
+  * HTML5 & GWT: [http://www.google.com/events/io/2011/sessions/gwt-html5-a-web-developers-dream.html HTML5 2011] (less interesting [http://www.google.com/events/io/2010/sessions/gwt-html5.html HTML5 2010])
   * CSS animations,
   * drag-n-drop, 
   * sounds, 
   * Manifest for offline playing,
   * flexible-box-model.
+  * Optimizations: [http://www.google.com/events/io/2009/sessions/StoryCompilerGwtCompiler.html code-splitting], [http://www.google.com/events/io/2011/sessions/high-performance-gwt-best-practices-for-writing-smaller-faster-apps.html best practices]
