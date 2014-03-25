@@ -1,8 +1,9 @@
 #summary AngularJS
 
 = Tutorials =
-  * [http://docs.angularjs.org/tutorial/step_00 Tutorial]
+  * [http://docs.angularjs.org/tutorial Tutorial]
 
 = Videos =
   * [http://www.youtube.com/watch?v=HCR7i5F5L8c Google I/O 2013 - Design Decisions in AngularJS]
   * [http://www.youtube.com/watch?v=i9MHigUZKEM AngularJS Fundamentals In 60-ish Minutes]
+  * [http://www.youtube.com/watch?v=ZhfUv0spHCY AngularJS Best Practices]
