@@ -4,7 +4,28 @@
 Submit version 2.
 
 ==Individual HW==
-Advanced graphics: animations for the moves, drag-n-drop the pieces, sounds (for the moves).
+===Part A: Use an emulator to test your game===
+The GWT emulator team built an awesome emulator, and you all need to convert your game to use `postMessage` and test your game on [http://smg-gwt-emulator.appspot.com/ GWT emulator site].
+I converted my cheat game (it only takes 10 minutes), and you can test it in the emulator by going to [http://smg-gwt-emulator.appspot.com/GwtEmulator.html emulator] and putting in my cheat URL: `http://2-dot-cheat-game.appspot.com/CheatGame.html`.
+
+Follow these instructions:
+  # Include the following line in your GWT xml file:
+{{{
+  <add-linker name='xsiframe' />
+  <inherits name='com.google.gwt.json.JSON'/>
+}}}
+  # Move your GWT xml file to the `org` directory (we have to do it because I move GameApi to a common package that will be the same in all games). You will need to change your source paths, e.g., for my cheat game I did:
+{{{
+  <source path='cheat'/>
+  <source path='game_api'/>
+}}}
+  # Download [https://raw.githubusercontent.com/yoav-zibin/cheat-game/master/eclipse/src/org/game_api/GameApi.java GameApi.java] and put it in package `org.game_api`. Note that I replaced all `Id`s that were `int` to `String`, so you will need to change your game accordingly and replace some `int` to `String`. After you're done test your game like you did before and only then move to the next steps.
+  # In your `EntryPoint` class, use `GameApi.ContainerConnector` instead of `GameApi.IteratingPlayerContainer`. You only need to call `container.sendGameReady();` method initially, and the rest will be handled by the emulator. Delete any UI that you added to change the current player (that is handled by the emulator).
+  # Upload to AppEngine (increase version number), and test in the [http://smg-gwt-emulator.appspot.com/GwtEmulator.html emulator].
+  # When everything works correctly, commit to your github and in your commit message write: `HW7 part A: converted the game to use the emulator in http://smg-gwt-emulator.appspot.com/GwtEmulator.html , enter in the emulator this URL: http://BLABLA.appspot.com/YOURGAME.html`
+
+===Part B: Advanced graphics===
+You need to add to your game: animations for the moves, drag-n-drop the pieces, sounds (for the moves).
 
 If your can't support drag-n-drop in any reasonable way (e.g., a poker game), then just add drag-n-drop to two labels `drag me` and `drag onto me` and change the size/color of the labels on drag over and drop events.
 
