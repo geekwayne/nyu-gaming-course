@@ -13,10 +13,10 @@
   * [Lesson3 Lesson5]: GWT UI and UiBinder
   * [HW4]: GWT Graphics.
   * [Lesson6 Lesson6]: AppEngine
-  * [HW_AppEngine HW5]: AppEngine HW.
+  * [HW_AppEngine HW5, HW6]: Group HW server tests and versions 1.
   * [AngularJS Lesson7]: AngularJS
   * [Lesson5 Lesson8]: HTML5
-  * [HW5 HW]: Animations, drag-n-drop, sounds
+  * [HW5 HW7]: Version 2, and Animations, drag-n-drop, sounds
   * [Lesson8 Lesson9]: I18n, ranking and security
   * [HW8 HW]: I18n and ranking
   * [Lesson9 Lesson10]: AI
