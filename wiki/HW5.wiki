@@ -18,7 +18,7 @@ Follow these instructions:
 {{{
 c.@org.game_api.GameApi.ContainerConnector::eventListner(Ljava/lang/String;)(str);
 }}} 
-You will need to change your source paths, e.g., for my cheat game I did:
+  # You will need to change your source paths in your GWT xml, e.g., for my cheat game I did:
 {{{
   <source path='cheat'/>
   <source path='game_api'/>
