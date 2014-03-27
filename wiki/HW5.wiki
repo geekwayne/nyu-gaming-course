@@ -21,7 +21,7 @@ Follow these instructions:
 }}}
   # Download [https://raw.githubusercontent.com/yoav-zibin/cheat-game/master/eclipse/src/org/game_api/GameApi.java GameApi.java] and put it in package `org.game_api`. Note that I replaced all `Id`s that were `int` to `String`, so you will need to change your game accordingly and replace some `int` to `String`. After you're done test your game like you did before and only then move to the next steps.
   # In your `EntryPoint` class, use `GameApi.ContainerConnector` instead of `GameApi.IteratingPlayerContainer`. You only need to call `container.sendGameReady();` method initially, and the rest will be handled by the emulator. Delete any UI that you added to change the current player (that is handled by the emulator).
-  # Upload to AppEngine (increase version number), and test in the [http://smg-gwt-emulator.appspot.com/GwtEmulator.html emulator].
+  # Upload to AppEngine (increase version number), and test in the [http://smg-gwt-emulator.appspot.com/GwtEmulator.html emulator]. You can also test locally if you want by downloading the emulator (follow the instructions on [http://smg-gwt-emulator.appspot.com/ GWT emulator site]).
   # When everything works correctly, commit to your github and in your commit message write: `HW7 part A: converted the game to use the emulator in http://smg-gwt-emulator.appspot.com/GwtEmulator.html , enter in the emulator this URL: http://BLABLA.appspot.com/YOURGAME.html`
 
 ===Part B: Advanced graphics===
