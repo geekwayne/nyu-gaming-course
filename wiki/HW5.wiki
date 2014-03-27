@@ -14,7 +14,11 @@ Follow these instructions:
   <add-linker name='xsiframe' />
   <inherits name='com.google.gwt.json.JSON'/>
 }}}
-  # Move your GWT xml file to the `org` directory (we have to do it because I move GameApi to a common package that will be the same in all games). You will need to change your source paths, e.g., for my cheat game I did:
+  # Move your GWT xml file to the `org` directory. We have to do it because I move `GameApi.java` to a common package that will be the same in all games, because the package name appears in the JSNI code:
+{{{
+c.@org.game_api.GameApi.ContainerConnector::eventListner(Ljava/lang/String;)(str);
+}}} 
+You will need to change your source paths, e.g., for my cheat game I did:
 {{{
   <source path='cheat'/>
   <source path='game_api'/>
