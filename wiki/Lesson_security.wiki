@@ -1,5 +1,6 @@
-#summary Security
+#summary I18n and Security
 
+  * [https://developers.google.com/web-toolkit/doc/latest/DevGuideI18n I18n] and Accessibility
   * 20 min: [http://code.google.com/webtoolkit/articles/security_for_gwt_applications.html Secure GWT]
   * 20 min: [http://code.google.com/webtoolkit/doc/latest/DevGuideSecuritySafeHtml.html SafeHtml]
   * 30 min: [http://code.google.com/webtoolkit/doc/latest/DevGuideSecurityRpcXsrf.html RPC XSRF]
