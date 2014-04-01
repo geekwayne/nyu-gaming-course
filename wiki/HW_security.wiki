@@ -1,0 +1,5 @@
+#summary Security.
+
+Submit version 4.
+
+Make sure your game and component is secure (pay special attention to strings that the user can change, e.g., email and name).
