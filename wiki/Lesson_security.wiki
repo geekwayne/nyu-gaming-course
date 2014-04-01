@@ -1,0 +1,5 @@
+#summary Security
+
+  * 20 min: [http://code.google.com/webtoolkit/articles/security_for_gwt_applications.html Secure GWT]
+  * 20 min: [http://code.google.com/webtoolkit/doc/latest/DevGuideSecuritySafeHtml.html SafeHtml]
+  * 30 min: [http://code.google.com/webtoolkit/doc/latest/DevGuideSecurityRpcXsrf.html RPC XSRF]
