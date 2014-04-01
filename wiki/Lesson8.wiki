@@ -1,4 +1,3 @@
 #summary Security and I18n
 
-  * [https://developers.google.com/web-toolkit/doc/latest/DevGuideI18n I18n] and Accessibility
   * Ranking: [http://en.wikipedia.org/wiki/Elo_rating_system#Mathematical_details ELO], [http://en.wikipedia.org/wiki/Glicko_rating_system Glicko] ([http://en.wikipedia.org/wiki/TrueSkill TrueSkill], simulations, convergence).
