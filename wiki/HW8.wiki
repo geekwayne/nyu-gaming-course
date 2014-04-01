@@ -10,4 +10,4 @@ Submit version 4.
 I18n your component to another language (obviously except the Server component, which shouldn't contain any strings for translation).
 
 The server team need to add support for ELO ranking:
-The initial rank is 1500, and a rank is updated when a game ends using [http://en.wikipedia.org/wiki/Elo_rating_system#Mathematical_details Elo rating formula] (you can use K=15)
+The initial rank is 1500, and a rank is updated when a game ends using [http://en.wikipedia.org/wiki/Elo_rating_system#Mathematical_details Elo rating formula] (you can use K=15). The containers should display the rank next to the player name(or break the ranks into buckets, such as beginner, intermediate, advanced; or show the rank when you hover above the name, etc).
