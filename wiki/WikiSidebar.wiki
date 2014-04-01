@@ -17,9 +17,11 @@
   * [AngularJS Lesson7]: AngularJS
   * [Lesson5 Lesson8]: HTML5
   * [HW5 HW7]: Version 2, and Animations, drag-n-drop, sounds
-  * [Lesson8 Lesson9]: I18n, ranking and security
-  * [HW8 HW]: I18n and ranking
-  * [Lesson9 Lesson10]: AI
+  * [Lesson8 Lesson9]: I18n, ranking
+  * [HW8 HW8]: Version 3, I18n and ranking
+  * [Lesson_security Lesson10]: security
+  * [HW_security HW]: Version 4, security
+  * [Lesson9 Lesson11]: AI
   * [HW9 HW]: AI
   * [Lesson13 Lesson]: FB and OAuth2
   * [Lesson4 Lesson]: Selenium and GIN
