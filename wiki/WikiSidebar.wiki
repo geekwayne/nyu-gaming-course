@@ -20,7 +20,7 @@
   * [Lesson8 Lesson9]: Ranking
   * [HW8 HW8]: Version 3 and ranking
   * [Lesson_security Lesson10]: I18n and security
-  * [HW_security HW]: Version 4 and I18n and security
+  * [HW_security HW9]: Version 4 and I18n and security
   * [Lesson9 Lesson11]: AI
   * [HW9 HW]: AI
   * [Lesson13 Lesson]: FB and OAuth2
