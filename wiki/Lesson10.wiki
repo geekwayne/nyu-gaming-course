@@ -3,11 +3,18 @@
 = Lesson plan =
   * [http://ionicframework.com/docs/guide/preface.html Ionic mobile framework for AngularJS]
 
-  * 30 min: [http://www.google.com/events/io/2011/sessions/using-gwt-and-eclipse-to-build-great-mobile-web-apps.html GWT Mobile Web Apps]
-  * 30 mon: [http://www.google.com/events/io/2011/sessions/html5-versus-android-apps-or-web-for-mobile-development.html HTML5 versus Android: Apps or Web for Mobile Development?]
+  * [http://www.google.com/events/io/2011/sessions/using-gwt-and-eclipse-to-build-great-mobile-web-apps.html GWT Mobile Web Apps]
+  * [http://www.google.com/events/io/2011/sessions/html5-versus-android-apps-or-web-for-mobile-development.html HTML5 versus Android: Apps or Web for Mobile Development?]
   * [https://code.google.com/p/mgwt/wiki/HTML5Manifest HTML5 manifest]
   * MGWT (Mobile GWT): [https://code.google.com/p/mgwt/wiki/UiBinder UiBinder in MGWT]
 
 Other framework:
   * [http://documentcloud.github.io/backbone/ backbone.js]
   * [https://parse.com/docs/js_guide Parse]
+
+Phonegap:
+  * [http://docs.phonegap.com/en/2.6.0/index.html PhoneGap APIs], [http://docs.phonegap.com/en/2.6.0/cordova_contacts_contacts.md.html#contacts.find Contacts API], [http://phonegap.com/about/feature/ Features], [http://docs.phonegap.com/en/2.6.0/guide_plugin-development_index.md.html#Plugin%20Development%20Guide Plugins], 
+  * [https://build.phonegap.com/docs/preparing-your-app PhoneGap Build], [https://build.phonegap.com/docs/config-xml Config.xml]
+  * [https://code.google.com/p/gwt-phonegap/wiki/ContactsModule GWT-phonegap]
+  * [http://www.mobiledevelopersolutions.com/home/start/twominutetutorials/tmt5p1 PhoneGap, ChildBrowser and OAuth]
+  * [https://developers.google.com/web-toolkit/doc/latest/DevGuideCodingBasicsJSNI JSNI]
