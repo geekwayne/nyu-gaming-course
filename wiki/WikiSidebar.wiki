@@ -19,14 +19,13 @@
   * [HW5 HW7]: Version 2, and Animations, drag-n-drop, sounds
   * [Lesson8 Lesson9]: Ranking
   * [HW8 HW8]: Version 3 and ranking
-  * [Lesson_security Lesson10]: I18n and security
+  * [Lesson13 Lesson10]: FB and OAuth2
+  * [Lesson10 Lesson11]: Mobile
+  * [Lesson_security Lesson12]: I18n and security
   * [HW_security HW9]: Version 4 and I18n and security
-  * [Lesson9 Lesson11]: AI
+  * [Lesson9 Lesson13]: AI
   * [HW9 HW10]: AI
-  * [Lesson13 Lesson]: FB and OAuth2
-  * [Lesson4 Lesson]: Selenium and GIN
-  * [Lesson10 Lesson]: Mobile site & mgwt
-  * [Lesson11 Lesson]: PhoneGap
+  * [Lesson4 Lesson14]: Selenium and GIN
   * Previously taught
     * [https://www.google.com/webdesigner/ Lesson]: Google Web Designer
     * [Lesson_Mobile_Physics Lesson]: Mobile and Physics engines
