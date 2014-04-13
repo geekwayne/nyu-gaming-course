@@ -9,4 +9,3 @@ Phonegap:
   * [https://build.phonegap.com/docs/preparing-your-app PhoneGap Build], [https://build.phonegap.com/docs/config-xml Config.xml]
   * [https://code.google.com/p/gwt-phonegap/wiki/ContactsModule GWT-phonegap]
   * [http://www.mobiledevelopersolutions.com/home/start/twominutetutorials/tmt5p1 PhoneGap, ChildBrowser and OAuth]
-  * [https://developers.google.com/web-toolkit/doc/latest/DevGuideCodingBasicsJSNI JSNI]
