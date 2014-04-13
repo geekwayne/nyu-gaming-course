@@ -2,7 +2,6 @@
 
 = Lesson plan =
   * [http://ionicframework.com/docs/guide/preface.html Ionic mobile framework for AngularJS]
-  * [https://code.google.com/p/mgwt/wiki/HTML5Manifest HTML5 manifest]
   * MGWT (Mobile GWT): [https://code.google.com/p/mgwt/wiki/UiBinder UiBinder in MGWT]
 
 Other framework:
