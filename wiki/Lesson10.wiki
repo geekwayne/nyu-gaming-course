@@ -5,7 +5,6 @@
   * MGWT (Mobile GWT): [https://code.google.com/p/mgwt/wiki/UiBinder UiBinder in MGWT]
 
 Other framework:
-  * [http://documentcloud.github.io/backbone/ backbone.js]
   * [https://parse.com/docs/js_guide Parse]
 
 Phonegap:
