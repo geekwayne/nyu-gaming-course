@@ -21,6 +21,7 @@
   * [HW8 HW8]: Version 3 and ranking
   * [Lesson13 Lesson10]: FB and OAuth2
   * [Lesson10 Lesson11]: Mobile
+  * [HW_Mobile HW10]: Change to mobile UI
   * [Lesson_security Lesson12]: I18n and security
   * [HW_security HW9]: Version 4 and I18n and security
   * [Lesson9 Lesson13]: AI
