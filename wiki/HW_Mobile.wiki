@@ -5,3 +5,7 @@ You should do it for both your individual game and your component (the Server te
 
   * Surf to your appspot website from a mobile device, and make sure everything works as expected.
   * Make sure dragging on mobile works, and if it doesn't then fix it. See [https://code.google.com/p/gwt-dnd/ gwt-dnd]
+
+You can emulate a mobile device on chrome using 
+[https://developers.google.com/chrome-developer-tools/docs/mobile-emulation#enable-emulation-panel the emulation panel].
+Test on Nexus5.
