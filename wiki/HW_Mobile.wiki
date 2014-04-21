@@ -9,3 +9,8 @@ You should do it for both your individual game and your component (the Server te
 You can emulate a mobile device on chrome using 
 [https://developers.google.com/chrome-developer-tools/docs/mobile-emulation#enable-emulation-panel the emulation panel].
 Test on Nexus5.
+
+Use [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag viewport]:
+{{{
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+}}}
