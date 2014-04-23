@@ -6,6 +6,11 @@
   * 5 min: [http://www.xkcd.com/1002/ XKCD AI] and [http://en.wikipedia.org/wiki/Solved_game Solved games]
   * 20 min: Explain [HW9], go over [http://code.google.com/p/gaming-platform/source/browse/trunk/eclipse/gaming-platform/src/org/gaming/shared/games/ai/AlphaBetaPruning.java AlphaBetaPruning.java]
 
+Recorded talks:
+  * [https://www.youtube.com/watch?v=CN5x4pPLtSw Intro and HW] (3 minutes)
+  * [https://www.youtube.com/watch?v=taJdXE0tfBw Slides] (41 minutes)
+  * [http://youtu.be/d536XU5kZV4 XKCD] (5 minutes)
+
 = Links =
   * [http://en.wikipedia.org/wiki/Minimax Minimax search]
   * [http://en.wikipedia.org/wiki/Alpha-beta_pruning Alpha beta pruning]
