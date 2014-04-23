@@ -4,3 +4,7 @@
   * [http://code.google.com/webtoolkit/articles/security_for_gwt_applications.html Secure GWT]
   * [http://code.google.com/webtoolkit/doc/latest/DevGuideSecuritySafeHtml.html SafeHtml]
   * [http://code.google.com/webtoolkit/doc/latest/DevGuideSecurityRpcXsrf.html RPC XSRF]
+
+Recorded talks:
+  * [http://youtu.be/q0Pw8-gQRcM I18N in GWT] (26 minutes)
+  * [http://youtu.be/GQ76JBmVlC8 Security and HW] (28 minutes)
