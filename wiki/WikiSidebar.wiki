@@ -26,8 +26,9 @@
   * [HW_security HW9]: Version 4 and I18n and security
   * [Lesson9 Lesson13]: AI
   * [HW9 HW10]: AI
-  * [Lesson4 Lesson14]: Selenium and GIN
+  * Lesson14: Summary and demos
   * Previously taught
+    * [Lesson4 Lesson14]: Selenium and GIN
     * [https://www.google.com/webdesigner/ Lesson]: Google Web Designer
     * [Lesson_Mobile_Physics Lesson]: Mobile and Physics engines
     * [Lesson12 Lesson]: Canvas, GWTBox2D, JSNI
