@@ -31,6 +31,9 @@ c.@org.game_api.GameApi.ContainerConnector::eventListner(Ljava/lang/String;)(str
 ===Part B: Advanced graphics===
 You need to add to your game: animations for the moves, drag-n-drop the pieces, sounds (for the moves).
 
+Do NOT use [https://code.google.com/p/gwt-dnd GWT drag-n-drop project] (gwt-dnd). They have a [https://code.google.com/p/gwt-dnd/issues/detail?id=179 bug] if you scale the game.
+
+
 If your can't support drag-n-drop in any reasonable way (e.g., a poker game), then just add drag-n-drop to two labels `drag me` and `drag onto me` and change the size/color of the labels on drag over and drop events.
 
 As usual, upload your game to your AppEngine, and write the URL in the commit message. Make sure to increment the `version` number in your `appengine-web.xml` so the grader could still access the old HW. I recommend setting the `version` number to the HW number.
