@@ -5,7 +5,8 @@ Convert your graphics to support a mobile/tablet WEB (i.e., surfing to a your si
 You should do it for both your individual game and your component (the Server team should help the login team to convert their UI to mobile).
 
   * Surf to your appspot website from a mobile device, and make sure everything works as expected.
-  * Make sure dragging on mobile works, and if it doesn't then fix it. See [https://code.google.com/p/gwt-dnd/ gwt-dnd]
+  * Make sure dragging on mobile works, and if it doesn't then fix it. See [
+http://stackoverflow.com/questions/20927759/html5-drag-and-drop-for-mobile drag-n-drop on mobile]
 
 ==Scaling your game==
 Your game should scale itself to fit exactly in the available window size.
