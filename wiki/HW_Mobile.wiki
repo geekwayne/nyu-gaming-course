@@ -1,16 +1,53 @@
 #summary Mobile HW
 
+
 Convert your graphics to support a mobile/tablet WEB (i.e., surfing to a your site using a mobile browser).
 You should do it for both your individual game and your component (the Server team should help the login team to convert their UI to mobile).
 
   * Surf to your appspot website from a mobile device, and make sure everything works as expected.
   * Make sure dragging on mobile works, and if it doesn't then fix it. See [https://code.google.com/p/gwt-dnd/ gwt-dnd]
 
-You can emulate a mobile device on chrome using 
-[https://developers.google.com/chrome-developer-tools/docs/mobile-emulation#enable-emulation-panel the emulation panel].
-Test on Nexus5.
-
-Use [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag viewport]:
+==Scaling your game==
+Your game should scale itself to fit exactly in the available window size.
+Add this JS code to your HTML
 {{{
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<script>
+function scaleBody() {
+  var myGameWidth = 1650;
+  var myGameHeight = 1100;
+  var scaleX = window.innerWidth / myGameWidth;
+  var scaleY = window.innerHeight / myGameHeight;
+  var scale = Math.min(scaleX, scaleY);
+  var transformString = "scale(" + scale + "," + scale + ")";
+  document.body.style.transform = transformString;
+  document.body.style['-o-transform'] = transformString;
+  document.body.style['-webkit-transform'] = transformString;
+  document.body.style['-moz-transform'] = transformString;
+  document.body.style['-ms-transform'] = transformString;
+  var transformOriginString = "0 0 0";
+  document.body.style['transform-origin'] = transformOriginString;
+  document.body.style['-o-transform-origin'] = transformOriginString;
+  document.body.style['-webkit-transform-origin'] = transformOriginString;
+  document.body.style['-moz-transform-origin'] = transformOriginString;
+  document.body.style['-ms-transform-origin'] = transformOriginString;
+}
+window.onresize = scaleBody;
+window.onorientationchange = scaleBody;
+document.addEventListener("orientationchange", scaleBody);
+scaleBody();
+</script>
 }}}
+You should add the above script tag at the end of your `<body>`,
+and add in the `<head>` tag use [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag viewport]:
+{{{
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+}}}
+
+==Testing your mobile changes==
+One option is to install an emulator, e.g., 
+[http://buildcontext.com/blog/2011/android-browser-emulator-windows-7-nexus-s-xoom-tablet Android emulator].
+
+You can also emulate a mobile device on chrome using 
+[https://developers.google.com/chrome-developer-tools/docs/mobile-emulation#enable-emulation-panel the emulation panel].
+
+Test on Nexus5.
