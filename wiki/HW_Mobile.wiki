@@ -13,8 +13,8 @@ Add this JS code to your HTML
 {{{
 <script>
 function scaleBody() {
-  var myGameWidth = 1650;
-  var myGameHeight = 1100;
+  var myGameWidth = ENTER_YOUR_GAME_WIDTH;
+  var myGameHeight = ENTER_YOUR_GAME_HEIGHT;
   var scaleX = window.innerWidth / myGameWidth;
   var scaleY = window.innerHeight / myGameHeight;
   var scale = Math.min(scaleX, scaleY);
