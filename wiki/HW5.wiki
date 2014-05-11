@@ -31,6 +31,8 @@ c.@org.game_api.GameApi.ContainerConnector::eventListner(Ljava/lang/String;)(str
 ===Part B: Advanced graphics===
 You need to add to your game: animations for the moves, drag-n-drop the pieces, sounds (for the moves).
 
+Make sure to send the move only after the animations finish.
+
 Do NOT use [https://code.google.com/p/gwt-dnd GWT drag-n-drop project] (gwt-dnd). They have a [https://code.google.com/p/gwt-dnd/issues/detail?id=179 bug] if you scale the game.
 
 
