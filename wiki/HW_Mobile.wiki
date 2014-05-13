@@ -53,6 +53,6 @@ You can also emulate a mobile device on chrome using
 
 
 
-The emulation panel have a [https://groups.google.com/d/msg/mgwt/W9ZxRyhBbBc/-NpMgo5lRP4J bug with MGWT] (its a [https://code.google.com/p/chromium/issues/detail?id=133915 chrome bug]), so if you're using [http://smg-gwt-emulator.appspot.com/GwtEmulator.html GwtEmulator] then you should spoof your user agent to an empty string.
+The emulation panel have a [https://groups.google.com/d/msg/mgwt/W9ZxRyhBbBc/-NpMgo5lRP4J bug with MGWT] (its a [https://code.google.com/p/chromium/issues/detail?id=133915 chrome bug]), so if you're using [http://smg-gwt-emulator.appspot.com/GwtEmulator.html GwtEmulator] then you should spoof your user agent to an empty string or turn the user agent off.
 
 Test on Nexus5.
