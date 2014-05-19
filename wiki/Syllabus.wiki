@@ -11,11 +11,6 @@ Office hours are after the lesson, in the classroom.
 He co-founded and worked for 3 years in a multiplayer gaming startup called [http://www.come2play.com Come2Play] (0.5M monthly FB users for its Chess app, and 6M likes to its [https://www.facebook.com/PlayChess?fref=ts Chess page]).
 
 ==Short course description==
-Previous courses (the course material will be more or less the same):
-  # [https://code.google.com/p/gaming-platform/ Spring 2012]
-  # [https://code.google.com/p/nyu-gaming-course-2013/ Spring 2013]
-  # Fall 2013 and Spring 2013 use this site.
-
 The course will teach how to develop online casual multiplayer games
 for web and mobile, using open technologies such as [http://code.google.com/webtoolkit/ GWT], [http://angularjs.org/ AngularJS], [http://code.google.com/appengine/ AppEngine], DHTML, JSON, AJAX, long-polling, HTML5, PhoneGap, etc.
 
