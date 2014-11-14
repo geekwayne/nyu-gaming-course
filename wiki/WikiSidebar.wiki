@@ -1,4 +1,0 @@
-#summary Table of content - Side-Wiki navigation.
-
-  * [Syllabus]
- 
