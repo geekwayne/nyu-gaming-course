@@ -1,40 +1,4 @@
 #summary Table of content - Side-Wiki navigation.
 
   * [Syllabus]
-  * [Grading]
-  * [Eclipse]
-  * [Lesson1 Lesson1]: Overview, JUnit
-  * [Lesson_JuryApi Lesson2]: JuryAPI
-  * [HW1]: Write unit tests for game logic
-  * Lesson3: showed cheat logic and tests.
-  * [HW2]: Implementation of game logic
-  * [Lesson2 Lesson4]: Internet intro, MVP and Mockito (examples from Cheat)
-  * [HW3]: Presenter for your game.
-  * [Lesson3 Lesson5]: GWT UI and UiBinder
-  * [HW4]: GWT Graphics.
-  * [Lesson6 Lesson6]: AppEngine
-  * [HW_AppEngine HW5, HW6]: Group HW server tests and versions 1.
-  * [AngularJS Lesson7]: AngularJS
-  * [Lesson5 Lesson8]: HTML5
-  * [HW5 HW7]: Version 2, and Animations, drag-n-drop, sounds
-  * [Lesson8 Lesson9]: Ranking
-  * [HW8 HW8]: Version 3 and ranking
-  * [Lesson13 Lesson10]: FB and OAuth2
-  * [Lesson10 Lesson11]: Mobile
-  * [HW_Mobile HW10]: Change to mobile UI
-  * [Lesson_security Lesson12]: I18n and security
-  * [HW_security HW9]: Version 4 and I18n and security
-  * [Lesson9 Lesson13]: AI
-  * [HW9 HW10]: AI
-  * Lesson14: Summary and demos
-  * Previously taught
-    * [Lesson4 Lesson14]: Selenium and GIN
-    * [https://www.google.com/webdesigner/ Lesson]: Google Web Designer
-    * [Lesson_Mobile_Physics Lesson]: Mobile and Physics engines
-    * [Lesson12 Lesson]: Canvas, GWTBox2D, JSNI
-    * Now these are platform assignments:
-    * [HW6 HW]: Multiplayer and Google login
-    * [HW7 HW]: Save & load
-    * [HW10 HW]: Mobile & Offline
-    * [HW11 HW]: Invite your contacts
-    * [HW13 HW]: FB
+ 
