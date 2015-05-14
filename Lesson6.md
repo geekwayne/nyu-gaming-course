@@ -1,0 +1,25 @@
+# Lesson plan #
+  * [GWT+AppEngine](http://www.google.com/events/io/2011/sessions/highly-productive-gwt-rapid-development-with-app-engine-objectify-requestfactory-and-gwt-platform.html)
+  * [SQL vs NoSQL](https://developers.google.com/events/io/2012/sessions/gooio2012/306/)
+  * [Channel API TicTacToe Example](https://developers.google.com/appengine/docs/java/channel/#Java_Example_Tic_Tac_Toe_application)
+  * AppEngine datastore: [objectify code examples](https://code.google.com/p/objectify-appengine/wiki/Entities#Serializing).
+
+
+## Long polling ##
+It uses two HTTP connections to the server. When the client has data to send to the server, it initiates an HTTP connection and posts the data to the server. The client also maintains a long-lived HTTP connection to the server that the server uses to return data back to the client. We refer to the first type of connection as the send channel and the second type of connection as the receive channel. Together these two unidirectional channels provide a bidirectional channel of communication between the browser and the server.
+
+HTTP chunked transfer encoding
+```
+HTTP/1.x 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+
+chunk-size CRLF
+11111 CRLF
+chunk-size CRLF
+<2+ second pause recommended>
+2 CRLF
+last-chunk CRLF
+```

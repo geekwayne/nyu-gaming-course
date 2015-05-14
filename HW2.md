@@ -1,0 +1,5 @@
+**Due date: two days after lesson 4**
+
+Implement the logic for your game. Now all the tests from HW1 should pass.
+
+For example, [CheatLogic.java](https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/src/org/cheat/client/CheatLogic.java).

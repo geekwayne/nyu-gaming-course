@@ -1,0 +1,33 @@
+In HW2 you handled `VerifyMove` message and made sure the move was legal.
+In HW3 you will handle `UpdateUI` to update your graphics using the MVP pattern, but only write the presenter (in HW4 you will write the view).
+
+Specifically, write a `YourGamePresenter` that will handle `UpdateUI` and control a view interface. (HW4 will do the view implementation.)
+Also write a `YourGamePresenterTest` that will cover interesting states in your game. You will need to download [Mockito](https://code.google.com/p/mockito/downloads/list) and use mocks for the view and container.
+
+See [CheatPresenter.java](https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/src/org/cheat/client/CheatPresenter.java) and [CheatPresenterTest.java](https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/tests/org/cheat/client/CheatPresenterTest.java)
+
+Example of how to use mockito:
+```
+  @Before
+  public void runBefore() {
+    mockView = Mockito.mock(View.class);
+    mockContainer = Mockito.mock(Container.class);
+    yourGamePresenter= new YourGamePresenter(mockView, mockContainer);
+    verify(mockView).setPresenter(yourGamePresenter);
+  }
+
+  @After
+  public void runAfter() {
+    verifyNoMoreInteractions(mockContainer);
+    verifyNoMoreInteractions(mockView);
+  }
+
+  @Test
+  public void testEmptyStateForW() {
+    // Call methods on your presenter.
+    yourGamePresenter...
+    // Verify the correct methods were called on your mocks.
+    verify(mockContainer).sendMakeMove(...);
+    verify(mockView)....;
+  }
+```

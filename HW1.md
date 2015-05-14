@@ -1,0 +1,42 @@
+# HW1 #
+For deadline and submission instructions see [Grading](Grading.md).
+
+**Due date: two days after lesson lesson 3 (you have two weeks to do HW1)**
+
+Administration stuff to do:
+  * Add your name & NYU & Google id, and your game name and github URL to our  [spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=3). Choose a game that no other students chose and or two games that were done in previous courses (see the list of [suggested games](https://docs.google.com/document/d/1KDDRvWEyaWoVxSSmrlA8Lf2r9knTkuA4cX8aTTplirQ/edit#)).
+  * Mailing list: register to [our Google group](https://groups.google.com/forum/?fromgroups#!forum/nyu-gaming-course-winter-2014). If you have any problems or questions, send an email to our group: `nyu-gaming-course-winter-2014@googlegroups.com`
+  * Go over all the wiki pages.
+  * Install [Java JDK SE 7 Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk7u9-downloads-1859576.html)
+  * Install and configure [Eclipse](Eclipse.md), make sure you install gwt-2.6 or higher (to be able to use Java 7 features).
+
+After choosing your game (and verifying with me that it wasn't done before), do the following:
+  * Add 2 slides for your game [here](https://docs.google.com/presentation/d/1Q8fVk-3urSTiGYbqPpkQ8SK5bKBYCpU2NLsJPWBa2n8/edit#slide=id.g2a8d707f7_10). These slides should describe how your game will use Game API and how your game state is represented. See the examples in the beginning for TicTacToe and Cheat.
+  * Copy [GameApi.java](https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/src/org/cheat/client/GameApi.java) to your github project. This file contains all the Game API messages.
+  * Create an empty `Logic` class for your game which has a single method for verifying a move, e.g., see [CheatLogic.java](https://github.com/yoav-zibin/cheat-game/blob/ae9e2aa9fc99ab4656cad2e49efe223c3f631ab3/eclipse/src/org/cheat/client/CheatLogic.java)
+  * Write a test with **20-30** unit tests for your game logic. Tests both legal and illegal moves (for every legal move you should have 2-3 illegal moves). Some of your tests should fail now, because your logic class is empty now. After HW2, all the tests should pass (unless you have bugs in your tests or implementation). E.g., see [CheatLogicTest.java](https://github.com/yoav-zibin/cheat-game/blob/master/eclipse/tests/org/cheat/client/CheatLogicTest.java)
+  * Do not forget to test end-game scenarios, i.e., moves that cause the game to end!
+
+To summarize, your logic class should have a single method:
+```
+  public VerifyMoveDone verify(VerifyMove verifyMove) {
+    // TODO: I will implement this method in HW2
+    return new VerifyMoveDone();
+  }
+```
+And your test should have unit tests for it, e.g.,
+```
+  @Test
+  public void testLegalMoveXXX() {
+    VerifyMove verifyMove = new VerifyMove(...); // The move we're testing is legal
+    VerifyMoveDone verifyDone = new YourGameLogic().verify(verifyMove);
+    assertEquals(0, verifyDone.getHackerPlayerId());
+  }
+
+  @Test
+  public void testIllegalMoveYYY() {
+    VerifyMove verifyMove = new VerifyMove(...); // The move we're testing is ILLEGAL!
+    VerifyMoveDone verifyDone = new YourGameLogic().verify(verifyMove);
+    assertEquals(verifyMove.getLastMovePlayerId(), verifyDone.getHackerPlayerId());
+  }
+```

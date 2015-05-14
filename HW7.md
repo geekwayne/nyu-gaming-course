@@ -1,0 +1,47 @@
+# Using AppEngine data-store and transactions #
+
+In this HW, you will learn how to store and retrieve entities from AppEngine datastore and how to use transactions.
+
+Add the ability to save and load matches in the way described below. Your app will allow two ways of playing: (1) synchronous (where both players are connected at the same time to the server), and (2) asynchronous (where it is enough for one player to be connected, and the players alternate making moves, in a ping-pong fashion; this is similar to how [DrawSomething](https://play.google.com/store/apps/details?id=com.omgpop.dstpaid&hl=en) is played).
+
+Instructions:
+  * Only allow logged in users to play; if the user is not logged in, then redirect him to log in. Display the logged user on the page (show the username and [email](https://developers.google.com/appengine/docs/java/javadoc/com/google/appengine/api/users/User#getEmail()))
+  * Allow the user to start a new game either by entering the email of the desired opponent, or using the auto-match from [HW6](HW6.md).
+  * Each user has a list of ongoing matches against a set of opponents. Two players can have multiple ongoing matches.
+  * A user can load any ongoing match to see the state of the game. If it is his turn, then the user can make a move (regardless of whether the opponent is online or not). Making a move will update the data-store, and notify the players using ChannelAPI (send the update to all the ChannelAPI connections of the player and his opponent; consider the case that a player is connected using his laptop and his mobile).
+  * Use ChannelAPI to notify the player when a match is updated, and update the UI accordingly.
+  * Upload everything to AppEngine, and add the URL of your game to your commit messages.
+
+I recommend keeping the following entities in the datastore:
+  * Player: a player will have an email (key), a name, a list of connected ChannelAPI tokens, a list of matches.
+  * Match: match id (key), the keys of the two players, the game state, which player has the current turn, and whether the match is over (and who won).
+
+The entities should be updated in the following way:
+  * When a player logs in, create the Player entity (or just update the name).
+  * Track [Client Connections and Disconnections](https://developers.google.com/appengine/docs/java/channel/overview#Tracking_Client_Connections_and_Disconnections) to add and remove ChannelAPI tokens from the Player entity.
+  * When a player starts a match by entering an email, create a Match entity and insert it to the list of matches of the two players' entities (use a cross-entity transaction).
+  * Similarly, when two players are auto-matched, then create a Match entity and update the two players' entities.
+  * When a player makes a move, the server should do the following in a transaction: make sure the player indeed has the current turn, then make the move to calculate the following game state, update the Match entity (set the new state, update who has the current turn or who won the game), and send the updated match entity using ChannelAPI.
+  * A player can choose to delete a match, which will remove it from his list of matches; when both players removed a match from their lists then you should delete the match entity (don't automatically delete a match when it is over, because the opponent need to see the final move.)
+
+UI description:
+  * Show the logged user name and email.
+  * Show the board (the board can be empty if there is no current match)
+  * Show the current match info: the opponent name and match ID (recall that you can have multiple matches with a single opponent) and who has the turn (or who won the match).
+  * Have a delete button (deletes the current match).
+  * Have way to load a match; I recommend a drop down showing the opponent name and match ID and who has the current turn or who won the match.
+  * Have a button for auto-match (pressing it should clear the current match info and board, and only put the pieces when the match starts).
+  * Have an input text to insert the opponent email, and a button to start a new match with that opponent.
+
+Example scenario of a match between two users (Jack and Jill):
+  1. Jack goes to the URL and logs in using his Google account.
+  1. Jack sees an empty board, an empty match drop down.
+  1. Jack writes Jill's email, and clicks on "start a match/game".
+  1. Jack sees the initial board, the drop down includes this new match and it shows "Jill's email ({MATCH\_ID}, turn of {Jack's email})"
+  1. Jack makes a move, and the board is updated. The drop down now shows "Jill's email ({MATCH\_ID}, turn of {Jill's email})"
+  1. Jill goes to the URL and logs in
+  1. Jill sees an empty board, an drop down that includes "Jill's email ({MATCH\_ID}, turn of {Jill's email})"
+  1. Jill selects that match from the drop down, and the board is updated.
+  1. Jill makes a move, and the match is updated on the server, and using ChannelAPI, the updated match entity is sent to Jack (which updates his board and drop-down)
+  1. Jack and Jill continue making moves until the game is over. Jack did the final move that won the game. Jack presses on "delete", which removes the match from his list of matches, the drop down is now empty and the board is cleared.
+  1. Jill now sees in her drop down "Jill's email ({MATCH\_ID}, {Jack's email} won)". Jill deletes the current match, which removes the match from her list of matches and also deletes the match entity. The board is cleared, and the drop down is now empty.

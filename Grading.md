@@ -1,0 +1,28 @@
+There will be 8-12 game homeworks (HWs) of equal weight (50% of the final grade), and 5-8 platform homeworks (50% of the final grade).
+Each HW will be submitted into the github project using a **single commit** (to make grading easier).
+
+Add your email and name to our [spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AvLEQb_5Yz6RdHRmb3RReDFnSWJRWm1EakJaTGozSnc#gid=3).
+We will use the spreadsheet to track what everyone is working on.
+
+# Game HWs #
+The game HW deadline is always the same: any time before our lecture starts.
+The **deadline is strict** - any submission after the deadline will be penalized as follows:
+  * 1-day late: 1 grade below (A to A-, A- to B+, etc; the grades are: A, A-, B+, B, B-, C+, C, C-, etc)
+  * 2-day late: 2 grades below (A to B+, etc)
+  * 3-day late: 3 grades below
+  * 4-day late: 4 grades below
+  * 5-day late: won't be graded.
+
+The grader will go over your committed code, review it and give you feedback and your grade for that HW.
+
+You may copy code from anywhere on the internet as long it is clearly marked with a URL pointing to the source.
+
+# Platform HWs #
+We will all work together on building a gaming platform ([GitHub multiplayer gaming platform project](https://github.com/yoav-zibin/multiplayer-gaming-platform/)).
+The platform has several **components** (emulator, game container, server, documentation, developer console, etc).
+Each component will have some students working on it, and one of them will be the **owner**. The owner's job is to review all changes to the component, test changes, and make sure the component is consistent and functional. The owners will also describe and rank what contributions each student made to their component.
+
+Some student will own a **cross-component feature**, write a design doc for it, and make changes to all affected components.
+Some students will have additional roles, such as release engineer.
+
+For more info see [platform assignments doc](https://docs.google.com/document/d/15U_p6d901fov1rxNCyuZmOVF9NavASEuGIMf5AIGHTU/edit).

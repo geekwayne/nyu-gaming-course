@@ -1,0 +1,27 @@
+Each student should build 5 levels in the Egg hunt game using
+[Box2DWeb](https://code.google.com/p/box2dweb/wiki/BasicUsage) (see [documentation](http://www.box2dflash.org/docs/2.1a/reference/)).
+
+As usual, upload the game to your AppEngine and give the URL in your commit message.
+I'll choose the best game next week, and we'll work together on extending it.
+
+# Easter Egg hunt game #
+There are several eggs and you need to collect them in a basket and on the way you decorate them (the eggs hit a special decoration object).
+You need to collect at least one egg to pass a level, but you should collect as many as possible (catch-them-all!).
+
+The game will have several easter eggs (balls) that you need to bring to a final destination and decorate them along the way,
+like a combination between "Where is my water" (but with balls instead of water to make the physics simpler), "Cut the rope", and any other physics game you like (http://en.wikipedia.org/wiki/Lemmings_(video_game) lemmings], [Incredible machine](http://en.wikipedia.org/wiki/The_Incredible_Machine_(series)), Angry birds, etc). The eggs could smash, you could have different types of eggs (exploding, metallic, rubber, delicate, oil/powder filled, toxic, ), different types of paths (fixed walls, you could dig your own paths in dirt, sticky paths) and other mechanics (ropes, moving beams, trampoline, triggers, etc).
+
+
+In **later HWs** we'll add other components to the game, such as
+  * Level selector, and grouping the levels into themes.
+  * Splash loading screen
+  * Navigation: Main menu, selecting theme and level
+  * Pause and retry
+  * Show score (time bonus, egg bonus, decoration bonus)
+  * Saving to local storage
+  * Login to FB, social features and save on AppEngine
+  * Nice UI using Google Web Designer (GWD)
+
+Some tips:
+  * [RUBE Box2D Editor](https://www.iforce2d.net/rube/#) is useful for editting your levels.
+  * [How to add sounds in JS](http://www.jpmresearch.info/?page_id=733)
